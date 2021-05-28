@@ -1,0 +1,18 @@
+[
+  {
+    "Id": "280615",
+    "ThreadId": "81719",
+    "Html": "<p>I'm running MS Windows Server 2003 SP2 with SSMS 2008 [10.0.1600.22 ((SQL_PreRelease).080709-1414 )] and having just installed the product I get the following error upon running SSMS:</p>\r\n<p>The Add-In 'InternalsViewer.SSMSAddIn.Connect' failed to load or caused an exception.&nbsp; Would you like to remove this Add-In? Error Message: The system cannot find the specified file.&nbsp; Error Number: 80070002</p>\r\n<p>help?</p>\r\n<p>thanks - erick</p>",
+    "PostedDate": "2010-01-22T08:11:24.993-08:00",
+    "UserRole": null,
+    "MarkedAsAnswerDate": null
+  },
+  {
+    "Id": "420280",
+    "ThreadId": "81719",
+    "Html": "<p>I having the same problem!</p>\r\n<p>&nbsp;</p>\r\n<p>I Install the Internals Viewer for SQL Server 2005 in a machine with Windows Vista 23 Bits. The problem begin because i can see the icon in the SSMS.</p>\r\n<p>After that I Install the 'SQL Server 2005 - <a>InternalsViewer20081228-90.reg'&nbsp; </a></p>\r\n<p>and after this i try to do a connection with my SSMS and i get the error</p>\r\n<p>&nbsp;</p>\r\n<p>The Add-In 'InternalsViewer.SSMSAddIn.Connect' failed to load or caused an exception.&nbsp; Would you like to remove this Add-In? Error Message: The system cannot find the specified file.&nbsp; Error Number: 80070002</p>\r\n<p>Help?</p>\r\n<p>But First Congratulations for the product seems so good!</p>\r\n<p>&nbsp;</p>",
+    "PostedDate": "2010-03-19T08:10:56.573-07:00",
+    "UserRole": null,
+    "MarkedAsAnswerDate": null
+  }
+]

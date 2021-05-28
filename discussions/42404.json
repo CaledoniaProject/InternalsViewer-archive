@@ -1,0 +1,10 @@
+[
+  {
+    "Id": "140895",
+    "ThreadId": "42404",
+    "Html": "Breadcrum: connected to a db, opened page viewer, opened page (1:2), clicked on a red block in the lower part of screen, got error:<br>\r\n<br>\r\nProblem does not appear from (page1:3)  sgam<br>\r\n<br>\r\nGrts, NExus64 / Theo<br>\r\n<br>\r\nSystem.Collections.Generic.KeyNotFoundException: The given key was not present in the dictionary.<br>\r\n   at System.ThrowHelper.ThrowKeyNotFoundException()<br>\r\n   at System.Collections.Generic.Dictionary`2.get_Item(TKey key)<br>\r\n   at InternalsViewer.Internals.PageIO.DatabaseHeaderReader.LoadHeader(IDictionary`2 headerData, Header header)<br>\r\n   at InternalsViewer.Internals.PageIO.DatabasePageReader.LoadHeader()<br>\r\n   at InternalsViewer.Internals.PageIO.DatabasePageReader.Load()<br>\r\n   at InternalsViewer.Internals.Pages.Page.LoadPage(Boolean suppressLoad)<br>\r\n   at InternalsViewer.Internals.Pages.Page..ctor(String connectionString, String database, PageAddress pageAddress)<br>\r\n   at InternalsViewer.UI.PageViewerWindow.LoadPage(String connectionString, PageAddress pageAddress)<br>\r\n   at InternalsViewer.UI.PageViewerWindow.AllocationViewer_PageClicked(Object sender, PageEventArgs e)<br>\r\n   at InternalsViewer.UI.AllocationViewer.OnPageClicked(Object sender, PageEventArgs e)<br>\r\n   at InternalsViewer.UI.Allocations.AllocationMap.AllocationMapPanel_MouseClick(Object sender, MouseEventArgs e)<br>\r\n   at System.Windows.Forms.Control.OnMouseClick(MouseEventArgs e)<br>\r\n   at System.Windows.Forms.Control.WmMouseUp(Message&amp; m, MouseButtons button, Int32 clicks)<br>\r\n   at System.Windows.Forms.Control.WndProc(Message&amp; m)<br>\r\n   at System.Windows.Forms.ScrollableControl.WndProc(Message&amp; m)<br>\r\n   at System.Windows.Forms.Control.ControlNativeWindow.OnMessage(Message&amp; m)<br>\r\n   at System.Windows.Forms.Control.ControlNativeWindow.WndProc(Message&amp; m)<br>\r\n   at System.Windows.Forms.NativeWindow.Callback(IntPtr hWnd, Int32 msg, IntPtr wparam, IntPtr lparam)<br>\r\n",
+    "PostedDate": "2008-12-16T02:32:06.597-08:00",
+    "UserRole": null,
+    "MarkedAsAnswerDate": null
+  }
+]

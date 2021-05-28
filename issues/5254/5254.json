@@ -1,0 +1,39 @@
+{
+  "WorkItem": {
+    "AffectedComponent": {
+      "Name": "",
+      "DisplayName": ""
+    },
+    "ClosedComment": "",
+    "ClosedDate": null,
+    "CommentCount": 0,
+    "Custom": null,
+    "Description": "---  Event log record ----------------------------------\nFault bucket , type 0\nEvent Name: CLR20r3\nResponse: Not available\nCab Id: 0\n \nProblem signature:\nP1: sqlinternalsviewer.exe\nP2: 1.0.2.37137\nP3: 485ac3a2\nP4: System.Windows.Forms\nP5: 2.0.0.0\nP6: 4a275ebd\nP7: 1326\nP8: 2b\nP9: System.IO.FileNotFoundException\nP10: \n \nAttached files:\nC:\\Users\\<myuser>\\AppData\\Local\\Temp\\WER5299.tmp.WERInternalMetadata.xml\n \nThese files may be available here:\nC:\\Users\\<myuser>\\AppData\\Local\\Microsoft\\Windows\\WER\\ReportArchive\\AppCrash_sqlinternalsview_702d33e0b4d34f7c709b4152c9b754a859f619d5_1eaf5bec\n \nAnalysis symbol: \nRechecking for solution: 0\nReport Id: 11dd3ca2-13fe-11df-a848-001e37be8f5f\nReport Status: 1\n \n----- Crash Log is as follows -----------------------------------------\nVersion=1\nEventType=CLR20r3\nEventTime=129100303796746802\nReportType=2\nConsent=1\nUploadTime=129100303797486845\nReportIdentifier=11dd3ca2-13fe-11df-a848-001e37be8f5f\nResponse.type=4\nSig[0].Name=Problem Signature 01\nSig[0].Value=sqlinternalsviewer.exe\nSig[1].Name=Problem Signature 02\nSig[1].Value=1.0.2.37137\nSig[2].Name=Problem Signature 03\nSig[2].Value=485ac3a2\nSig[3].Name=Problem Signature 04\nSig[3].Value=System.Windows.Forms\nSig[4].Name=Problem Signature 05\nSig[4].Value=2.0.0.0\nSig[5].Name=Problem Signature 06\nSig[5].Value=4a275ebd\nSig[6].Name=Problem Signature 07\nSig[6].Value=1326\nSig[7].Name=Problem Signature 08\nSig[7].Value=2b\nSig[8].Name=Problem Signature 09\nSig[8].Value=System.IO.FileNotFoundException\nDynamicSig[1].Name=OS Version\nDynamicSig[1].Value=6.1.7600.2.0.0.256.4\nDynamicSig[2].Name=Locale ID\nDynamicSig[2].Value=1033\nUI[2]=C:\\Program Files\\SQL Internals Viewer\\SqlInternalsViewer.exe\nUI[3]=SQL Internals Viewer has stopped working\nUI[4]=Windows can check online for a solution to the problem.\nUI[5]=Check online for a solution and close the program\nUI[6]=Check online for a solution later and close the program\nUI[7]=Close the program\nLoadedModule[0]=C:\\Program Files\\SQL Internals Viewer\\SqlInternalsViewer.exe\nLoadedModule[1]=C:\\Windows\\SYSTEM32\\ntdll.dll\nLoadedModule[2]=C:\\Windows\\SYSTEM32\\MSCOREE.DLL\nLoadedModule[3]=C:\\Windows\\system32\\KERNEL32.dll\nLoadedModule[4]=C:\\Windows\\system32\\KERNELBASE.dll\nLoadedModule[5]=C:\\Windows\\system32\\ADVAPI32.dll\nLoadedModule[6]=C:\\Windows\\system32\\msvcrt.dll\nLoadedModule[7]=C:\\Windows\\SYSTEM32\\sechost.dll\nLoadedModule[8]=C:\\Windows\\system32\\RPCRT4.dll\nLoadedModule[9]=C:\\Windows\\system32\\SHLWAPI.dll\nLoadedModule[10]=C:\\Windows\\system32\\GDI32.dll\nLoadedModule[11]=C:\\Windows\\system32\\USER32.dll\nLoadedModule[12]=C:\\Windows\\system32\\LPK.dll\nLoadedModule[13]=C:\\Windows\\system32\\USP10.dll\nLoadedModule[14]=C:\\Windows\\system32\\IMM32.DLL\nLoadedModule[15]=C:\\Windows\\system32\\MSCTF.dll\nLoadedModule[16]=C:\\Windows\\Microsoft.NET\\Framework\\v2.0.50727\\mscorwks.dll\nLoadedModule[17]=C:\\Windows\\WinSxS\\x86_microsoft.vc80.crt_1fc8b3b9a1e18e3b_8.0.50727.4927_none_d08a205e442db5b5\\MSVCR80.dll\nLoadedModule[18]=C:\\Windows\\system32\\shell32.dll\nLoadedModule[19]=C:\\Windows\\system32\\ole32.dll\nLoadedModule[20]=C:\\Windows\\system32\\profapi.dll\nLoadedModule[21]=C:\\Windows\\assembly\\NativeImages_v2.0.50727_32\\mscorlib\\8c1770d45c63cf5c462eeb945ef9aa5d\\mscorlib.ni.dll\nLoadedModule[22]=C:\\Windows\\system32\\CRYPTBASE.dll\nLoadedModule[23]=C:\\Windows\\system32\\uxtheme.dll\nLoadedModule[24]=C:\\Windows\\Microsoft.NET\\Framework\\v2.0.50727\\mscorjit.dll\nLoadedModule[25]=C:\\Windows\\assembly\\NativeImages_v2.0.50727_32\\System\\5ba3bf5367fc012300c6566f20cb7f54\\System.ni.dll\nLoadedModule[26]=C:\\Windows\\assembly\\NativeImages_v2.0.50727_32\\System.Drawing\\ead6be8b410d56b5576b10e56af2c180\\System.Drawing.ni.dll\nLoadedModule[27]=C:\\Windows\\assembly\\NativeImages_v2.0.50727_32\\System.Windows.Forms\\fedf1ba58dced4f0b3f8c457648ceed9\\System.Windows.Forms.ni.dll\nLoadedModule[28]=C:\\Windows\\system32\\CRYPTSP.dll\nLoadedModule[29]=C:\\Windows\\system32\\rsaenh.dll\nLoadedModule[30]=C:\\Windows\\system32\\RpcRtRemote.dll\nLoadedModule[31]=C:\\Program Files\\SQL Internals Viewer\\Internals.dll\nLoadedModule[32]=C:\\Windows\\system32\\dwmapi.dll\nLoadedModule[33]=C:\\Windows\\WinSxS\\x86_microsoft.windows.gdiplus_6595b64144ccf1df_1.1.7600.16385_none_72fc7cbf861225ca\\gdiplus.dll\nLoadedModule[34]=C:\\Windows\\WinSxS\\x86_microsoft.windows.common-controls_6595b64144ccf1df_6.0.7600.16385_none_421189da2b7fabfc\\comctl32.dll\nLoadedModule[35]=C:\\Windows\\system32\\WindowsCodecs.dll\nLoadedModule[36]=C:\\Windows\\assembly\\NativeImages_v2.0.50727_32\\System.Configuration\\4b1350e31ff09cc583b34854816d8036\\System.Configuration.ni.dll\nLoadedModule[37]=C:\\Windows\\system32\\shfolder.dll\nLoadedModule[38]=C:\\Windows\\assembly\\NativeImages_v2.0.50727_32\\System.Xml\\5dd9f783008543df3e642ff1e99de4e8\\System.Xml.ni.dll\nLoadedModule[39]=C:\\Windows\\system32\\RichEd20.DLL\nLoadedModule[40]=C:\\Windows\\system32\\version.dll\nLoadedModule[41]=C:\\Windows\\assembly\\NativeImages_v2.0.50727_32\\System.Data\\7f457271e765b5d72f081942b829469c\\System.Data.ni.dll\nLoadedModule[42]=C:\\Windows\\assembly\\GAC_32\\System.Data\\2.0.0.0__b77a5c561934e089\\System.Data.dll\nLoadedModule[43]=C:\\Windows\\system32\\WS2_32.dll\nLoadedModule[44]=C:\\Windows\\system32\\NSI.dll\nLoadedModule[45]=C:\\Windows\\system32\\CRYPT32.dll\nLoadedModule[46]=C:\\Windows\\system32\\MSASN1.dll\nLoadedModule[47]=C:\\Windows\\system32\\CLBCatQ.DLL\nLoadedModule[48]=C:\\Windows\\system32\\OLEAUT32.dll\nLoadedModule[49]=C:\\Windows\\system32\\apphelp.dll\nFriendlyEventName=Stopped working\nConsentKey=CLR20r3\nAppName=SQL Internals Viewer\nAppPath=C:\\Program Files\\SQL Internals Viewer\\SqlInternalsViewer.exe\nReportDescription=Stopped working",
+    "LastUpdatedDate": "2013-02-21T16:07:03.087-08:00",
+    "PlannedForRelease": "",
+    "ReleaseVisibleToPublic": false,
+    "Priority": {
+      "Name": "Low",
+      "Severity": 50,
+      "Id": 1
+    },
+    "ProjectName": "InternalsViewer",
+    "ReportedDate": "2010-02-07T07:41:42.797-08:00",
+    "Status": {
+      "Name": "Proposed",
+      "Id": 1
+    },
+    "ReasonClosed": {
+      "Name": "Unassigned"
+    },
+    "Summary": "App crashes immediately after trying to connect to server",
+    "Type": {
+      "Name": "Issue",
+      "Id": 3
+    },
+    "VoteCount": 1,
+    "Id": 5254
+  },
+  "FileAttachments": [],
+  "Comments": []
+}

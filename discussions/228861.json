@@ -1,0 +1,34 @@
+[
+  {
+    "Id": "499488",
+    "ThreadId": "228861",
+    "Html": "<p>I am getting follwing error when trying to launch sql server management studio after successfull install of internals viewer.</p>\r\n<p><strong>Error Message</strong>: The system cannot find the file specified<br><strong>Error #:</strong> 80070002</p>\r\n<p>Thanks,</p>\r\n<p>Ali.</p>",
+    "PostedDate": "2010-09-28T07:10:37.453-07:00",
+    "UserRole": null,
+    "MarkedAsAnswerDate": null
+  },
+  {
+    "Id": "572207",
+    "ThreadId": "228861",
+    "Html": "<p>I get the same.</p>",
+    "PostedDate": "2011-02-25T08:45:29.22-08:00",
+    "UserRole": null,
+    "MarkedAsAnswerDate": null
+  },
+  {
+    "Id": "601909",
+    "ThreadId": "228861",
+    "Html": "<p>I get the same too</p>",
+    "PostedDate": "2011-04-23T10:00:44.31-07:00",
+    "UserRole": null,
+    "MarkedAsAnswerDate": null
+  },
+  {
+    "Id": "602301",
+    "ThreadId": "228861",
+    "Html": "<p><strong>There are breaking changes in SQL Server 2008 R2.</strong></p>\r\n<p>Download source code and comment those lines :</p>\r\n<div style=\"color: black; background-color: white;\">\r\n<pre><span style=\"color: green;\">/*\r\n * Legacy Code (SQL 2005 et 2008)\r\n */</span>\r\n<span style=\"color: green;\">//IObjectExplorerEventProvider provider = ServiceCache.GetObjectExplorer().GetService(typeof(IObjectExplorerEventProvider)) as IObjectExplorerEventProvider;</span>\r\n<span style=\"color: green;\">//provider.NodesRefreshed += new NodesChangedEventHandler(Provider_NodesRefreshed);</span>\r\n<span style=\"color: green;\">//provider.NodesAdded += new NodesChangedEventHandler(Provider_NodesRefreshed);</span>\r\n<span style=\"color: green;\">//provider.BufferedNodesAdded += new NodesChangedEventHandler(Provider_NodesRefreshed);</span></pre>\r\n</div>\r\n<p>ServiceCache no longer exists in R2 and some ways to subscribe to these events found on internet do not work everytime (not on my laptop for example).<br />I do not know the real effects but addin works on my SQL Server 2008 R2 instance.</p>\r\n<p>Note : you might need to change some references (in x86 folder if you are in 64 bits) and SMOEnum doesn't longer exist too (SMOExtended and/or SQLEnum) before rebuild.</p>",
+    "PostedDate": "2011-04-25T00:11:29.43-07:00",
+    "UserRole": null,
+    "MarkedAsAnswerDate": null
+  }
+]

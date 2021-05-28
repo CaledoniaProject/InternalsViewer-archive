@@ -1,0 +1,45 @@
+{
+  "WorkItem": {
+    "AffectedComponent": {
+      "Name": "",
+      "DisplayName": ""
+    },
+    "ClosedComment": "",
+    "ClosedDate": null,
+    "CommentCount": 0,
+    "Custom": null,
+    "Description": "Keep getting attached error.",
+    "LastUpdatedDate": "2013-02-21T16:07:01.607-08:00",
+    "PlannedForRelease": "",
+    "ReleaseVisibleToPublic": false,
+    "Priority": {
+      "Name": "Low",
+      "Severity": 50,
+      "Id": 1
+    },
+    "ProjectName": "InternalsViewer",
+    "ReportedDate": "2011-11-20T07:43:20.38-08:00",
+    "Status": {
+      "Name": "Proposed",
+      "Id": 1
+    },
+    "ReasonClosed": {
+      "Name": "Unassigned"
+    },
+    "Summary": "Error number: 80131513 error add-in InternalsViewer.SSMSAddin.Connect",
+    "Type": {
+      "Name": "Issue",
+      "Id": 3
+    },
+    "VoteCount": 1,
+    "Id": 9854
+  },
+  "FileAttachments": [
+    {
+      "FileId": 3631,
+      "FileName": "11-20-2011 9-32-52 AM.png",
+      "DownloadUrl": ".\\3631"
+    }
+  ],
+  "Comments": []
+}

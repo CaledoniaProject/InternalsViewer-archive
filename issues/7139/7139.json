@@ -1,0 +1,71 @@
+{
+  "WorkItem": {
+    "AffectedComponent": {
+      "Name": "",
+      "DisplayName": ""
+    },
+    "ClosedComment": "",
+    "ClosedDate": null,
+    "CommentCount": 0,
+    "Custom": null,
+    "Description": "Hello,\n \nI've installed Internals Viewer 2 Beta 2 20081228 for SQL Server 2008. \n \nIt throws this error when SSMS starts up:\n \nThe Add-in 'InternalsViewer.SSMSAddIn.Connect' failed to load or caused an exception.\n<snip>\n \nError Message: <Unknown Error>\nError number: 80131513\n \nAny ideas how I might fix it?\n \nThanks,\nPeter",
+    "LastUpdatedDate": "2014-01-28T12:27:03.34-08:00",
+    "PlannedForRelease": "",
+    "ReleaseVisibleToPublic": false,
+    "Priority": {
+      "Name": "Low",
+      "Severity": 50,
+      "Id": 1
+    },
+    "ProjectName": "InternalsViewer",
+    "ReportedDate": "2010-09-09T07:13:05.04-07:00",
+    "Status": {
+      "Name": "Proposed",
+      "Id": 1
+    },
+    "ReasonClosed": {
+      "Name": "Unassigned"
+    },
+    "Summary": "Plugin fails to load, SSMS 2008 R2 x64 Win7, Error  80131513",
+    "Type": {
+      "Name": "Issue",
+      "Id": 3
+    },
+    "VoteCount": 10,
+    "Id": 7139
+  },
+  "FileAttachments": [
+    {
+      "FileId": 2546,
+      "FileName": "SSMS Startup Error.png",
+      "DownloadUrl": ".\\2546"
+    }
+  ],
+  "Comments": [
+    {
+      "Message": "I get the same exception too.",
+      "PostedDate": "2011-08-30T01:08:07.58-07:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "",
+      "PostedDate": "2011-10-05T06:38:17.52-07:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "",
+      "PostedDate": "2012-05-26T23:46:29.753-07:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "",
+      "PostedDate": "2013-02-21T16:07:02.763-08:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "",
+      "PostedDate": "2014-01-28T12:27:03.34-08:00",
+      "Id": -2147483648
+    }
+  ]
+}

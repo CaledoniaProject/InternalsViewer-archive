@@ -1,0 +1,39 @@
+{
+  "WorkItem": {
+    "AffectedComponent": {
+      "Name": "",
+      "DisplayName": ""
+    },
+    "ClosedComment": "",
+    "ClosedDate": null,
+    "CommentCount": 0,
+    "Custom": null,
+    "Description": "When expanding the indexes node on master..spt_values I get the following error message complaining that the database \"Tables\" does not exist.  The stack trace indicates this comes from something InternalsViewer does when the nodes are expanded. I guess it may well be coded to assume that the grandparent node of the table is always the database node?\n \nFull Stack Trace Below:\n \n \n************** Exception Text **************\nSystem.Data.SqlClient.SqlException: Database 'Tables' does not exist. Make sure that the name is entered correctly.\n   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection)\n   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection)\n   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj)\n   at System.Data.SqlClient.TdsParser.Run(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj)\n   at System.Data.SqlClient.SqlInternalConnectionTds.ChangeDatabaseInternal(String database)\n   at System.Data.SqlClient.SqlInternalConnection.ChangeDatabase(String database)\n   at System.Data.SqlClient.SqlConnection.ChangeDatabase(String database)\n   at InternalsViewer.Internals.DataAccess.GetScalar(String connectionString, String database, String command, CommandType commandType, SqlParameter[] parameters)\n   at InternalsViewer.Internals.Structures.Hobt.HobtType(String connectionString, String databaseName, String objectName)\n   at InternalsViewer.SSMSAddIn.ObjectExplorerExtender.TreeView_BeforeExpand(Object sender, TreeViewCancelEventArgs e)\n   at System.Windows.Forms.TreeView.OnBeforeExpand(TreeViewCancelEventArgs e)\n   at Microsoft.SqlServer.Management.UI.VSIntegration.ObjectExplorer.LazyTreeView.OnBeforeExpand(TreeViewCancelEventArgs e)\n   at System.Windows.Forms.TreeView.TvnExpanding(NMTREEVIEW* nmtv)\n   at System.Windows.Forms.TreeView.WmNotify(Message& m)\n   at System.Windows.Forms.TreeView.WndProc(Message& m)\n   at Microsoft.SqlServer.Management.UI.VSIntegration.ObjectExplorer.LazyTreeView.WndProc(Message& m)\n   at System.Windows.Forms.Control.ControlNativeWindow.OnMessage(Message& m)\n   at System.Windows.Forms.Control.ControlNativeWindow.WndProc(Message& m)\n   at System.Windows.Forms.NativeWindow.Callback(IntPtr hWnd, Int32 msg, IntPtr wparam, IntPtr lparam)",
+    "LastUpdatedDate": "2013-02-21T16:07:02.45-08:00",
+    "PlannedForRelease": "",
+    "ReleaseVisibleToPublic": false,
+    "Priority": {
+      "Name": "Low",
+      "Severity": 50,
+      "Id": 1
+    },
+    "ProjectName": "InternalsViewer",
+    "ReportedDate": "2011-02-13T10:35:47.3-08:00",
+    "Status": {
+      "Name": "Proposed",
+      "Id": 1
+    },
+    "ReasonClosed": {
+      "Name": "Unassigned"
+    },
+    "Summary": "Cannot view indexes on system tables via object explorer",
+    "Type": {
+      "Name": "Issue",
+      "Id": 3
+    },
+    "VoteCount": 1,
+    "Id": 8333
+  },
+  "FileAttachments": [],
+  "Comments": []
+}

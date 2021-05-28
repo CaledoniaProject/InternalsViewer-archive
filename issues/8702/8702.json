@@ -1,0 +1,45 @@
+{
+  "WorkItem": {
+    "AffectedComponent": {
+      "Name": "",
+      "DisplayName": ""
+    },
+    "ClosedComment": "",
+    "ClosedDate": null,
+    "CommentCount": 0,
+    "Custom": null,
+    "Description": "In UI, when you select an index in GridView (at bottom), it does not select respective pages in allocation map.\nThe reason is that layer name differs from label clickable. \n \nHere is a fix :\n                            //layer.Transparent = !(layer.Name == name && layer.IndexName == indexName);\n                            layer.Transparent = !(\n                                (layer.Name == name || layer.Name == string.Format(\"{0}.{1}\", name, indexName))\n                                && layer.IndexName == indexName);",
+    "LastUpdatedDate": "2013-02-21T16:07:01.78-08:00",
+    "PlannedForRelease": "",
+    "ReleaseVisibleToPublic": false,
+    "Priority": {
+      "Name": "Low",
+      "Severity": 50,
+      "Id": 1
+    },
+    "ProjectName": "InternalsViewer",
+    "ReportedDate": "2011-04-25T03:42:11.27-07:00",
+    "Status": {
+      "Name": "Proposed",
+      "Id": 1
+    },
+    "ReasonClosed": {
+      "Name": "Unassigned"
+    },
+    "Summary": "Respective pages are not \"highlighted\" when you select an index",
+    "Type": {
+      "Name": "Issue",
+      "Id": 3
+    },
+    "VoteCount": 1,
+    "Id": 8702
+  },
+  "FileAttachments": [
+    {
+      "FileId": 3319,
+      "FileName": "AllocationWindow.cs",
+      "DownloadUrl": ".\\3319"
+    }
+  ],
+  "Comments": []
+}

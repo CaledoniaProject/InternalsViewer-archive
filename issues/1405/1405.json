@@ -1,0 +1,45 @@
+{
+  "WorkItem": {
+    "AffectedComponent": {
+      "Name": "",
+      "DisplayName": ""
+    },
+    "ClosedComment": "",
+    "ClosedDate": null,
+    "CommentCount": 0,
+    "Custom": null,
+    "Description": "I am unable to connect to one of my SQL Server's due to an unhandled exception that occurs when an offline DB is encountered.",
+    "LastUpdatedDate": "2013-02-21T16:07:03.477-08:00",
+    "PlannedForRelease": "",
+    "ReleaseVisibleToPublic": false,
+    "Priority": {
+      "Name": "Low",
+      "Severity": 50,
+      "Id": 1
+    },
+    "ProjectName": "InternalsViewer",
+    "ReportedDate": "2009-01-14T13:31:52.923-08:00",
+    "Status": {
+      "Name": "Proposed",
+      "Id": 1
+    },
+    "ReasonClosed": {
+      "Name": "Unassigned"
+    },
+    "Summary": "Offline DBs",
+    "Type": {
+      "Name": "Issue",
+      "Id": 3
+    },
+    "VoteCount": 1,
+    "Id": 1405
+  },
+  "FileAttachments": [
+    {
+      "FileId": 631,
+      "FileName": "InternalsViewerExceptionText.txt",
+      "DownloadUrl": ".\\631"
+    }
+  ],
+  "Comments": []
+}

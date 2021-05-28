@@ -1,0 +1,107 @@
+[
+  {
+    "Id": "39499",
+    "Title": "Upgrade to v2 fails",
+    "LatestDate": "2008-12-15T11:29:32.407-08:00"
+  },
+  {
+    "Id": "41714",
+    "Title": "Help using the tool ",
+    "LatestDate": "2009-04-26T11:40:45.96-07:00"
+  },
+  {
+    "Id": "42401",
+    "Title": "Feedback; Internals Viewer 2 Beta 1 20081215 error",
+    "LatestDate": "2008-12-16T02:17:36.923-08:00"
+  },
+  {
+    "Id": "42403",
+    "Title": "Feedback; Internals Viewer 2 Beta 1 20081215 error 2",
+    "LatestDate": "2008-12-16T02:28:05.943-08:00"
+  },
+  {
+    "Id": "42404",
+    "Title": "Feedback; Internals Viewer 2 Beta 1 20081215 error 3",
+    "LatestDate": "2008-12-16T02:32:06.597-08:00"
+  },
+  {
+    "Id": "42433",
+    "Title": "Feature request; Internals Viewer 2 Beta 1 20081215 ",
+    "LatestDate": "2008-12-16T08:19:11.1-08:00"
+  },
+  {
+    "Id": "42434",
+    "Title": "Feature request; Internals Viewer 2 Beta 1 20081215 ",
+    "LatestDate": "2008-12-17T03:44:43.68-08:00"
+  },
+  {
+    "Id": "42580",
+    "Title": "No add-in",
+    "LatestDate": "2013-12-15T10:42:15.913-08:00"
+  },
+  {
+    "Id": "46085",
+    "Title": "Unhandled exception error",
+    "LatestDate": "2009-02-03T07:51:17.523-08:00"
+  },
+  {
+    "Id": "59994",
+    "Title": "Possible error in column index type",
+    "LatestDate": "2011-04-25T01:36:56.073-07:00"
+  },
+  {
+    "Id": "72803",
+    "Title": "System.IO.FileNotFoundException",
+    "LatestDate": "2009-10-22T09:25:52.567-07:00"
+  },
+  {
+    "Id": "75974",
+    "Title": "Version to 2005 and 2008",
+    "LatestDate": "2009-11-23T09:04:05.613-08:00"
+  },
+  {
+    "Id": "81719",
+    "Title": "Fails to run!",
+    "LatestDate": "2010-03-19T08:10:56.573-07:00"
+  },
+  {
+    "Id": "155991",
+    "Title": "Multiple Filegroups",
+    "LatestDate": "2010-02-24T11:45:23.163-08:00"
+  },
+  {
+    "Id": "213006",
+    "Title": "'Class not registered' with addin",
+    "LatestDate": "2015-08-10T22:23:52.987-07:00"
+  },
+  {
+    "Id": "228861",
+    "Title": "Windows 7 - SQL Server 2008 R2 - ERROR",
+    "LatestDate": "2011-04-25T00:11:29.43-07:00"
+  },
+  {
+    "Id": "231239",
+    "Title": "Difficulty loading finding DLLS",
+    "LatestDate": "2010-10-17T13:56:42.937-07:00"
+  },
+  {
+    "Id": "274195",
+    "Title": "Is this Compatible with SSMS 2008R2?",
+    "LatestDate": "2013-10-22T17:22:44.33-07:00"
+  },
+  {
+    "Id": "356480",
+    "Title": "Updated version for 2008 R2.",
+    "LatestDate": "2014-08-21T19:47:39.56-07:00"
+  },
+  {
+    "Id": "432006",
+    "Title": "SQL Server 2012 support",
+    "LatestDate": "2014-08-21T19:48:14.42-07:00"
+  },
+  {
+    "Id": "658529",
+    "Title": "SQL Server 2008 & Later",
+    "LatestDate": "2016-10-06T07:07:24.293-07:00"
+  }
+]

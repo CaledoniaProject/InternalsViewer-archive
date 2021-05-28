@@ -1,0 +1,70 @@
+{
+  "WorkItem": {
+    "AffectedComponent": {
+      "Name": "",
+      "DisplayName": ""
+    },
+    "ClosedComment": "",
+    "ClosedDate": null,
+    "CommentCount": 0,
+    "Custom": null,
+    "Description": "Error message <unknown>\nError number 80131513\n \nSQL Server 2008 R2 (x64)",
+    "LastUpdatedDate": "2013-05-23T12:52:09.1-07:00",
+    "PlannedForRelease": "",
+    "ReleaseVisibleToPublic": false,
+    "Priority": {
+      "Name": "Low",
+      "Severity": 50,
+      "Id": 1
+    },
+    "ProjectName": "InternalsViewer",
+    "ReportedDate": "2012-05-26T10:00:06.443-07:00",
+    "Status": {
+      "Name": "Proposed",
+      "Id": 1
+    },
+    "ReasonClosed": {
+      "Name": "Unassigned"
+    },
+    "Summary": "The add-in InternalsViewer.SSMSAddIn.Connect failed to load or caused an exception",
+    "Type": {
+      "Name": "Issue",
+      "Id": 3
+    },
+    "VoteCount": 3,
+    "Id": 10820
+  },
+  "FileAttachments": [],
+  "Comments": [
+    {
+      "Message": "There seem to a number of references to this error with other add-ins following an upgrade to SQL Server 2008 R2 (e.g. http://www.red-gate.com/messageboard/viewtopic.php?t=9427), requiring the add-in to be updated. Is this likely to be the case for InternalsViewer?",
+      "PostedDate": "2012-05-26T23:54:46.303-07:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "I got the same error message since upgraded my client tools. I downloaded a copy of the source and now working on the updated version. It would be great if the project owner may release a new version for 2012 and 2008 R2 :)",
+      "PostedDate": "2012-07-26T02:47:18.377-07:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "I've had the same problem - has anyone found a way around this yet?\r\n\r\nCheers.",
+      "PostedDate": "2012-11-29T08:24:20.45-08:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "",
+      "PostedDate": "2013-01-19T07:36:26.723-08:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "",
+      "PostedDate": "2013-02-21T16:07:00.61-08:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "",
+      "PostedDate": "2013-05-23T12:52:09.1-07:00",
+      "Id": -2147483648
+    }
+  ]
+}

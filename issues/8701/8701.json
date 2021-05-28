@@ -1,0 +1,45 @@
+{
+  "WorkItem": {
+    "AffectedComponent": {
+      "Name": "",
+      "DisplayName": ""
+    },
+    "ClosedComment": "",
+    "ClosedDate": null,
+    "CommentCount": 0,
+    "Custom": null,
+    "Description": "Enum used is the same for pages and indexes. Int values are wrong for indexes.\n \n \n \n    [Flags]\n    public enum IndexTypes\n    {\n        Heap = 1,\n        Clustered = 2,\n        NonClustered = 4,\n        Leaf = 8,\n        Node = 16,\n        TableClustered = 32,\n        NonClusteredLeaf = NonClustered | Leaf\n    }\nI changed in source code the mapping in AllocationUnitLayer.cs\n \n \n \nint index_type = Convert.ToInt32(row[\"index_type\"]);\n                        if (index_type == 0)\n                            layer.IndexType = IndexTypes.Heap;\n                        else if (index_type == 1)\n                            layer.IndexType = IndexTypes.Clustered;\n                        else if (index_type == 2)\n                            layer.IndexType = IndexTypes.NonClustered;\n                        else\n                            //the previous code I've found here\n                            layer.IndexType = (IndexTypes)index_type;",
+    "LastUpdatedDate": "2013-02-21T16:07:01.97-08:00",
+    "PlannedForRelease": "",
+    "ReleaseVisibleToPublic": false,
+    "Priority": {
+      "Name": "Low",
+      "Severity": 50,
+      "Id": 1
+    },
+    "ProjectName": "InternalsViewer",
+    "ReportedDate": "2011-04-25T03:38:16.36-07:00",
+    "Status": {
+      "Name": "Proposed",
+      "Id": 1
+    },
+    "ReasonClosed": {
+      "Name": "Unassigned"
+    },
+    "Summary": "Index Types have wrong values",
+    "Type": {
+      "Name": "Issue",
+      "Id": 3
+    },
+    "VoteCount": 1,
+    "Id": 8701
+  },
+  "FileAttachments": [
+    {
+      "FileId": 3318,
+      "FileName": "AllocationUnitLayer.cs",
+      "DownloadUrl": ".\\3318"
+    }
+  ],
+  "Comments": []
+}

@@ -1,0 +1,10 @@
+[
+  {
+    "Id": "508533",
+    "ThreadId": "231239",
+    "Html": "<p>Difficulty loading finding DLLS</p>\r\n<p>Project : &nbsp;InternalsViewer.SSMSAddIn</p>\r\n<p>Looking for following dlls not found</p>\r\n<p>1 ConnectionDlg</p>\r\n<p>2 Microsoft.SqlServer.SqlTools.VSIntegration</p>\r\n<p>3 Microsoft.SqlServer.SqlTools.VSIntegration</p>\r\n<p>&nbsp;</p>\r\n<p>Can you please help me, where i should look for these dlls ? ??</p>\r\n<p>&nbsp;</p>\r\n<p>&nbsp;</p>\r\n<p>&nbsp;</p>\r\n<p>&nbsp;</p>\r\n<p>&nbsp;</p>",
+    "PostedDate": "2010-10-17T13:56:42.937-07:00",
+    "UserRole": null,
+    "MarkedAsAnswerDate": null
+  }
+]

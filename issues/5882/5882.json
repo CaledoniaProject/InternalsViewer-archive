@@ -1,0 +1,80 @@
+{
+  "WorkItem": {
+    "AffectedComponent": {
+      "Name": "",
+      "DisplayName": ""
+    },
+    "ClosedComment": "",
+    "ClosedDate": null,
+    "CommentCount": 0,
+    "Custom": null,
+    "Description": "hello\n \nI have installed the plugin and received error 80070002 when loading. SSMS is asking to disable the plugin. I reviewed the FAQ tried the registry steps and it continues to set the LoadBehavior back to 0 after failed load.\n \nAny ideas?",
+    "LastUpdatedDate": "2013-02-21T16:07:02.913-08:00",
+    "PlannedForRelease": "",
+    "ReleaseVisibleToPublic": false,
+    "Priority": {
+      "Name": "Low",
+      "Severity": 50,
+      "Id": 1
+    },
+    "ProjectName": "InternalsViewer",
+    "ReportedDate": "2010-04-08T07:03:14.083-07:00",
+    "Status": {
+      "Name": "Proposed",
+      "Id": 1
+    },
+    "ReasonClosed": {
+      "Name": "Unassigned"
+    },
+    "Summary": "Plugin fails to load, SSMS 2008, Error 80070002",
+    "Type": {
+      "Name": "Issue",
+      "Id": 3
+    },
+    "VoteCount": 4,
+    "Id": 5882
+  },
+  "FileAttachments": [],
+  "Comments": [
+    {
+      "Message": "I found the issue, it wasn't clear on which download I installed.  found it here for SSMS 2008\r\n\r\nissue can be closed. thanks.\r\n\r\n\r\nApplication Internals Viewer for SQL Server 2005\r\napplication, 452K, uploaded Dec 29 2008 - 5451 downloads\r\n\r\n Other Available Downloads\r\n\r\n\r\nApplication Internals Viewer for SQL Server 2008\r\napplication, 452K, uploaded Dec 29 2008 - 2898 downloads\r\n",
+      "PostedDate": "2010-04-08T07:20:23.477-07:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "Hi\r\n\r\nI have installled AddIn and also configured registery .\r\nStill No Luck !\r\n\r\nI'm getting follwing warning and i'm not able to see Internals Viewer Option in Menu bar.\r\n\r\n\"\r\n---------------------------\r\nMicrosoft SQL Server Management Studio\r\n---------------------------\r\nThe Add-in 'InternalsViewer.SSMSAddIn.Connect' failed to load or caused an exception.\r\nWould you like to remove this Add-in?\r\nIf you choose yes, you will need to reinstall the Add-in to use it again.\r\n\r\nError Message: The system cannot find the file specified.\r\n\r\n\r\nError number: 80070002\r\n---------------------------\r\nYes   No   \r\n---------------------------\r\n\"\r\n\r\nMy SQL Server Details:\r\n\r\nMicrosoft SQL Server Management Studio\t\t\t\t\t\t10.0.2531.0\r\nMicrosoft Analysis Services Client Tools\t\t\t\t\t\t10.0.1600.22\r\nMicrosoft Data Access Components (MDAC)\t\t\t\t\t 3.85.1132\r\nMicrosoft MSXML\t\t\t\t\t\t                                 2.6 3.0 4.0 5.0 6.0 \r\nMicrosoft Internet Explorer\t\t\t\t\t\t                 7.0.5730.13\r\nMicrosoft .NET Framework\t\t\t\t\t\t                 2.0.50727.3603\r\nOperating System\t\t\t\t\t\t                                 5.1.2600(WinXp Professional SP3\r\n\r\nPlease look into this.\r\nI'm very much excited to use this utility.\r\n\r\nThanks\r\nVikram\r\n\r\n\r\n\r\n\r\n\r\n",
+      "PostedDate": "2010-05-23T21:55:28.81-07:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "",
+      "PostedDate": "2010-06-19T10:01:15.927-07:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "Hi Guys, \r\nI have the same issue with my SQL Server 2008 R2 Data Center Edition.\r\nCould you please explain me how did you resolve this issue ? \r\nThanks in advance.",
+      "PostedDate": "2010-07-23T05:28:38.567-07:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "",
+      "PostedDate": "2010-11-12T16:10:47.807-08:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "Hi all,\r\n\r\nI got the same issue on my Windows 7 with SQL 2008. But It works fine with 2005.\r\n\r\nI run a Process Monitor. But didn't find any clue.\r\n\r\nThis tools is still supported ?\r\n\r\nLet's know.\r\nCheers,\r\nMichel",
+      "PostedDate": "2010-11-12T16:25:35.91-08:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "",
+      "PostedDate": "2011-04-04T11:44:36.12-07:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "",
+      "PostedDate": "2013-02-21T16:07:02.913-08:00",
+      "Id": -2147483648
+    }
+  ]
+}

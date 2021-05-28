@@ -1,0 +1,10 @@
+[
+  {
+    "Id": "364143",
+    "ThreadId": "155991",
+    "Html": "<p>Hi - I like the Internals Viewer but when I connect to a database with a large number of tables in multiple files (1200+ tables in 40 files), the allocation pages and File Details end up compressed. So each appears as a single line in SSMS and I can find any way to expand a filegroup so I can see all the details.</p>\r\n<p>Is there a way to expand a file or the tool just not ready for multiple filegroups?</p>\r\n<p>David Anderson</p>\r\n<p>&nbsp;</p>\r\n<p>&nbsp;</p>",
+    "PostedDate": "2010-02-24T11:45:23.163-08:00",
+    "UserRole": null,
+    "MarkedAsAnswerDate": null
+  }
+]

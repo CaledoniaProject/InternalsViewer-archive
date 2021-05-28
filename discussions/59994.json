@@ -1,0 +1,18 @@
+[
+  {
+    "Id": "203076",
+    "ThreadId": "59994",
+    "Html": "<p>Hello,</p>\r\n<p>Internals viewer reports clustered index as 'Heap' in the key grid. For example, in the AdventureWorks2008 database, table dbo.DatabaseLog, index PK_DatabaseLog_DatabaseLogID is non-clustered. In the key grid appears labeled as 'Clustered'. Conversely, in table HumanResources.Department, index PK_Department_DepartmentID is clustered and is labeled as 'Heap'.</p>\r\n<p>Thanks (wonderful tool! :-)).</p>\r\n<p>Xos&eacute; Antonio Rubal</p>\r\n<p>&nbsp;</p>",
+    "PostedDate": "2009-06-18T13:07:14.82-07:00",
+    "UserRole": null,
+    "MarkedAsAnswerDate": null
+  },
+  {
+    "Id": "602324",
+    "ThreadId": "59994",
+    "Html": "<p>Enum used is the same for pages and indexes. Int values are wrong for indexes.</p>\r\n<p>&nbsp;</p>\r\n<div style=\"color: black; background-color: white;\">\r\n<pre>    [Flags]\r\n    <span style=\"color: blue;\">public</span> <span style=\"color: blue;\">enum</span> IndexTypes\r\n    {\r\n        Heap = 1,\r\n        Clustered = 2,\r\n        NonClustered = 4,\r\n        Leaf = 8,\r\n        Node = 16,\r\n        TableClustered = 32,\r\n        NonClusteredLeaf = NonClustered | Leaf\r\n    }\r\n</pre>\r\n</div>\r\n<p>I changed in source code the mapping in AllocationUnitLayer.cs</p>\r\n<p>&nbsp;</p>\r\n<div style=\"color: black; background-color: white;\">\r\n<pre><span style=\"color: blue;\">int</span> index_type = Convert.ToInt32(row[<span style=\"color: #a31515;\">\"index_type\"</span>]);\r\n                        <span style=\"color: blue;\">if</span> (index_type == 0)\r\n                            layer.IndexType = IndexTypes.Heap;\r\n                        <span style=\"color: blue;\">else</span> <span style=\"color: blue;\">if</span> (index_type == 1)\r\n                            layer.IndexType = IndexTypes.Clustered;\r\n                        <span style=\"color: blue;\">else</span> <span style=\"color: blue;\">if</span> (index_type == 2)\r\n                            layer.IndexType = IndexTypes.NonClustered;\r\n                        <span style=\"color: blue;\">else</span>\r\n                            <span style=\"color: green;\">//the previous code I've found here</span>\r\n                            layer.IndexType = (IndexTypes)index_type; \r\n</pre>\r\n</div>",
+    "PostedDate": "2011-04-25T01:36:56.073-07:00",
+    "UserRole": null,
+    "MarkedAsAnswerDate": null
+  }
+]

@@ -1,0 +1,26 @@
+[
+  {
+    "Id": "838701",
+    "ThreadId": "356480",
+    "Html": "\r\n<p>I've created a fork of this project that has been updated for 2008 R2 over at:</p>\r\n<p><a title=\"http://intview2.codeplex.com\" href=\"http://intview2.codeplex.com\">http://intview2.codeplex.com</a></p>\r\n",
+    "PostedDate": "2012-05-20T17:39:28.4-07:00",
+    "UserRole": null,
+    "MarkedAsAnswerDate": null
+  },
+  {
+    "Id": "944631",
+    "ThreadId": "356480",
+    "Html": "\r\n<p>I loaded the revised version (SQL 2008R2 version) and within a short time recieved and unhandled exception.&nbsp; I have SQL 2008R2 with SP2 on Windows 7 Pro (32 Bit).</p>\r\n<p>I was connected to a remote database on Windows 2008R2 with SQL 2008R2 SP2 EE.</p>\r\n<p>&nbsp;</p>\r\n",
+    "PostedDate": "2012-11-20T08:06:23.647-08:00",
+    "UserRole": null,
+    "MarkedAsAnswerDate": null
+  },
+  {
+    "Id": "1292293",
+    "ThreadId": "356480",
+    "Html": "<strong>VaSquirrel wrote:</strong><br />\n<blockquote>\nI loaded the revised version (SQL 2008R2 version) and within a short time recieved and unhandled exception.&nbsp; I have SQL 2008R2 with SP2 on Windows 7 Pro (32 Bit). I was connected to a remote database on Windows 2008R2 with SQL 2008R2 SP2 EE. &nbsp;<br />\n</blockquote>\nI have same problem.<br />\n",
+    "PostedDate": "2014-08-21T19:47:39.56-07:00",
+    "UserRole": null,
+    "MarkedAsAnswerDate": null
+  }
+]

@@ -1,0 +1,45 @@
+{
+  "WorkItem": {
+    "AffectedComponent": {
+      "Name": "",
+      "DisplayName": ""
+    },
+    "ClosedComment": "",
+    "ClosedDate": null,
+    "CommentCount": 0,
+    "Custom": null,
+    "Description": "There are breaking changes in SQL Server 2008 R2.\n \nDownload source code and comment those lines :\n \n/*\n * Legacy Code (SQL 2005 et 2008)\n */\n//IObjectExplorerEventProvider provider = ServiceCache.GetObjectExplorer().GetService(typeof(IObjectExplorerEventProvider)) as IObjectExplorerEventProvider;\n//provider.NodesRefreshed += new NodesChangedEventHandler(Provider_NodesRefreshed);\n//provider.NodesAdded += new NodesChangedEventHandler(Provider_NodesRefreshed);\n//provider.BufferedNodesAdded += new NodesChangedEventHandler(Provider_NodesRefreshed);ServiceCache no longer exists in R2 and some ways to subscribe to these events found on internet do not work everytime (not on my laptop for example).\nI do not know the real effects but addin works on my SQL Server 2008 R2 instance.\n \nNote : you might need to change some references (in x86 folder if you are in 64 bits) and SMOEnum doesn't longer exist too (SMOExtended and/or SQLEnum) before rebuild.\n \n \nThat code is proposed on internet\n \n/*\n                     * SQL2008 R2 Code\n                     */\n                    //ObjectExplorerService objExplorerService = (ObjectExplorerService)ServiceCache.ServiceProvider.GetService(typeof(IObjectExplorerService));                    \n                    //ContextService cs = (ContextService)objExplorerService.Container.Components[0];\n                    //cs.ObjectExplorerContext.CurrentContextChanged += new NodesChangedEventHandler(Provider_NodesRefreshed);\n \nBut it doesn't work for me (Container.Components[0] is not a ContextService)",
+    "LastUpdatedDate": "2013-06-27T05:08:41.717-07:00",
+    "PlannedForRelease": "",
+    "ReleaseVisibleToPublic": false,
+    "Priority": {
+      "Name": "Low",
+      "Severity": 50,
+      "Id": 1
+    },
+    "ProjectName": "InternalsViewer",
+    "ReportedDate": "2011-04-25T03:35:48.087-07:00",
+    "Status": {
+      "Name": "Proposed",
+      "Id": 1
+    },
+    "ReasonClosed": {
+      "Name": "Unassigned"
+    },
+    "Summary": "Compatibility with SQL Server 2008 R2",
+    "Type": {
+      "Name": "Issue",
+      "Id": 3
+    },
+    "VoteCount": 4,
+    "Id": 8700
+  },
+  "FileAttachments": [
+    {
+      "FileId": 3317,
+      "FileName": "Connect.cs",
+      "DownloadUrl": ".\\3317"
+    }
+  ],
+  "Comments": []
+}

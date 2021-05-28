@@ -1,0 +1,50 @@
+[
+  {
+    "Id": "141550",
+    "ThreadId": "42580",
+    "Html": "Question - I completed the install (and checked to ensure the correct registry entry is there) but see no add-in wihtin SSMS or object explorer. I'm using the following version of SSMS Express - is this supported?<br>\r\n<br>\r\nMicrosoft SQL Server Management Studio Complete (expires in 180 days)      10.0.1600.22 ((SQL_PreRelease).080709-1414 )<br>\r\nMicrosoft Analysis Services Client Tools      2007.0100.1600.022 ((SQL_PreRelease).080709-1414 )<br>\r\nMicrosoft Data Access Components (MDAC)      6.0.6000.16386 (vista_rtm.061101-2205)<br>\r\nMicrosoft MSXML      3.0 5.0 6.0 <br>\r\nMicrosoft Internet Explorer      7.0.6000.16643<br>\r\nMicrosoft .NET Framework      2.0.50727.3053<br>\r\nOperating System      6.0.6000<br>\r\n<br>\r\nThanks\r\n",
+    "PostedDate": "2008-12-18T03:18:07.247-08:00",
+    "UserRole": null,
+    "MarkedAsAnswerDate": null
+  },
+  {
+    "Id": "141694",
+    "ThreadId": "42580",
+    "Html": "Hi,<br>\r\n<br>\r\nUnfortunately the add-in doesn't work with Express. You can always use the standalone version 1 available at <a href=\"http://www.sqlinternalsviewer.com\">www.sqlinternalsviewer.com</a><br>\r\n<br>\r\nDanny\r\n",
+    "PostedDate": "2008-12-18T13:45:02.713-08:00",
+    "UserRole": null,
+    "MarkedAsAnswerDate": null
+  },
+  {
+    "Id": "141784",
+    "ThreadId": "42580",
+    "Html": "Thanks for the quick reply Danny. When I use the stand alone version the installation works fine however when I try and connect I receive &quot;SQL Internals Viewer has stopped working message from Windows. I'm running VISTA and the earlier mentioned SQL Enterprise version and a SQL Server 2008 Evaluation copy. It's also a named instance so don't know if this is causing a problem.  Any ideas?<br>\r\n<br>\r\nThanks again.\r\n",
+    "PostedDate": "2008-12-19T00:57:04.907-08:00",
+    "UserRole": null,
+    "MarkedAsAnswerDate": null
+  },
+  {
+    "Id": "142436",
+    "ThreadId": "42580",
+    "Html": "It may be that you're missing the Microsoft Exception Message Box control that SQL Internals Viewer uses that needs to be installed if you don't have SQL Server 2005 installed.<br>\r\n<br>\r\nIt can be downloaded here -<br>\r\n<ul>\r\n    <li><a href=\"http://download.microsoft.com/download/2/7/c/27c60d49-6dbe-423e-9a9e-1c873f269484/SQLServer2005_EMB.msi\">x32</a></li>\r\n    <li><a href=\"http://download.microsoft.com/download/2/7/c/27c60d49-6dbe-423e-9a9e-1c873f269484/SQLServer2005_EMB_x64.msi\">x64</a></li>\r\n</ul>\r\n<p>If that doesn't work please let me know.<br>\r\n<br>\r\nDanny</p>\r\n",
+    "PostedDate": "2008-12-22T12:38:34.25-08:00",
+    "UserRole": null,
+    "MarkedAsAnswerDate": null
+  },
+  {
+    "Id": "142545",
+    "ThreadId": "42580",
+    "Html": "That worked, thanks!\r\n",
+    "PostedDate": "2008-12-23T03:15:34.987-08:00",
+    "UserRole": null,
+    "MarkedAsAnswerDate": null
+  },
+  {
+    "Id": "1136251",
+    "ThreadId": "42580",
+    "Html": "Where can I get the standalone Version ? So <a href=\"http://www.sqlinternalsviewer.com\" rel=\"nofollow\">www.sqlinternalsviewer.com</a> is now internalsviewer.codeplex.com  and I can't find it.<br />\n",
+    "PostedDate": "2013-12-15T10:42:15.913-08:00",
+    "UserRole": null,
+    "MarkedAsAnswerDate": null
+  }
+]

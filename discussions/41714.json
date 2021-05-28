@@ -1,0 +1,50 @@
+[
+  {
+    "Id": "138462",
+    "ThreadId": "41714",
+    "Html": "Hi Danny, I installed the tool however I do not see it on SSMS or Object explore. I think it will be nice to provide a quik word doc with screen shot and a little guidence on how to use it. <br>\r\nThanks \r\n",
+    "PostedDate": "2008-12-07T17:09:18.703-08:00",
+    "UserRole": null,
+    "MarkedAsAnswerDate": null
+  },
+  {
+    "Id": "140234",
+    "ThreadId": "41714",
+    "Html": "Same problem here, as far as the install goes  :)<br>\r\n<br>\r\nFor usage i would recommend the inside the storage engine book.<br>\r\n<br>\r\nTheo \r\n",
+    "PostedDate": "2008-12-13T03:25:32.66-08:00",
+    "UserRole": null,
+    "MarkedAsAnswerDate": null
+  },
+  {
+    "Id": "140686",
+    "ThreadId": "41714",
+    "Html": "Hi Neo100,<br>\r\n<br>\r\nApologies for the delay in replying to you. <br>\r\n<br>\r\nDo you see the Internals Viewer menu in SSMS? The Internals Viewer - Allocation Map menu item will bring up the allocation map, which has the functionality of the standalone viewer (version 1). You should also see some additional items in the Indexes folder in the Object Browser.<br>\r\n<br>\r\nIf there is no trace of the add-in, try check in the registry that the LoadBehavior is set to 1 in  HKEY_CURRENT_USER\\Software\\Microsoft\\Microsoft SQL Server\\100\\Tools\\Shell\\Addins\\InternalsViewer.SSMSAddIn.Connect or HKEY_CURRENT_USER\\Software\\Microsoft\\Microsoft SQL Server\\90\\Tools\\Shell\\Addins\\InternalsViewer.SSMSAddIn.Connect for 2005.<br>\r\n<br>\r\nDanny\r\n",
+    "PostedDate": "2008-12-15T11:38:29.873-08:00",
+    "UserRole": null,
+    "MarkedAsAnswerDate": null
+  },
+  {
+    "Id": "140885",
+    "ThreadId": "41714",
+    "Html": "That fixed it.<br>\r\n<br>\r\n:)<br>\r\n<br>\r\nNexus64 (theo)\r\n",
+    "PostedDate": "2008-12-16T01:57:38.657-08:00",
+    "UserRole": null,
+    "MarkedAsAnswerDate": null
+  },
+  {
+    "Id": "183788",
+    "ThreadId": "41714",
+    "Html": "<p>Hi Dan,</p>\r\n<p>I have the sql 2005 and after installation of Internals Viewer I don't see it on SSMS. I checked the registry and the LoadBehaviour  is set.</p>\r\n<p>Thanks</p>\r\n",
+    "PostedDate": "2009-04-26T10:38:08.853-07:00",
+    "UserRole": null,
+    "MarkedAsAnswerDate": null
+  },
+  {
+    "Id": "183798",
+    "ThreadId": "41714",
+    "Html": "Hi Dan,<br>\r\nI decided to install the product as stand-alone and it worked.<br>\r\nThank you.<br>\r\n",
+    "PostedDate": "2009-04-26T11:40:45.96-07:00",
+    "UserRole": null,
+    "MarkedAsAnswerDate": null
+  }
+]

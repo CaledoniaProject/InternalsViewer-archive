@@ -1,0 +1,80 @@
+{
+  "WorkItem": {
+    "AffectedComponent": {
+      "Name": "",
+      "DisplayName": ""
+    },
+    "ClosedComment": "",
+    "ClosedDate": null,
+    "CommentCount": 0,
+    "Custom": null,
+    "Description": "After installing Internals Viewer, I get the following error when starting SSMS:\n \n\"The Add-in 'InternalsViewer.SSMSAddIn.Connect' failed to load or caused an exception.\nWould you like to remove this Add-in?\nIf you choose yet, you will need to reinstall the Add-in to use it again.\n \nError Message: Class not registered\n \nError number: 80040154\"\n \nPlease note that LoadBehavior is already set to 1.  Any help appreciated.  Tx.",
+    "LastUpdatedDate": "2014-02-17T23:14:36.087-08:00",
+    "PlannedForRelease": "",
+    "ReleaseVisibleToPublic": false,
+    "Priority": {
+      "Name": "Low",
+      "Severity": 50,
+      "Id": 1
+    },
+    "ProjectName": "InternalsViewer",
+    "ReportedDate": "2012-04-04T05:38:00.497-07:00",
+    "Status": {
+      "Name": "Proposed",
+      "Id": 1
+    },
+    "ReasonClosed": {
+      "Name": "Unassigned"
+    },
+    "Summary": "error: The Add-in 'InternalsViewer.SSMSAddIn.Connect' failed to load or caused an exception.",
+    "Type": {
+      "Name": "Issue",
+      "Id": 3
+    },
+    "VoteCount": 3,
+    "Id": 10608
+  },
+  "FileAttachments": [],
+  "Comments": [
+    {
+      "Message": "i am getting the same error.How you come to resolve that error",
+      "PostedDate": "2012-05-07T23:52:25.46-07:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "I didn't.  I'm still waiting for an answer.",
+      "PostedDate": "2012-05-08T00:40:41.09-07:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "Take a look at http://intview2.codeplex.com/ to see if that works for you.",
+      "PostedDate": "2012-05-20T17:42:55.58-07:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "",
+      "PostedDate": "2012-05-26T09:49:14.833-07:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "",
+      "PostedDate": "2012-07-26T02:47:50.843-07:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "",
+      "PostedDate": "2013-02-21T16:07:01.133-08:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "\nMy issue got fixed , Take a look at below post :\r\n\r\nhttp://www.thetechiepost.com/?p=183\r\n\r\n![Image](http://www.thetechiepost.com/wp-content/uploads/2014/02/Capture-1.png)",
+      "PostedDate": "2014-02-17T23:05:59.197-08:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "http://www.thetechiepost.com/error-the-add-in-internalsviewer-ssmsaddin-connect-failed-to-load-or-caused-an-exception/",
+      "PostedDate": "2014-02-17T23:14:36.087-08:00",
+      "Id": -2147483648
+    }
+  ]
+}

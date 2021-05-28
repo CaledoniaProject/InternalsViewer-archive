@@ -1,0 +1,354 @@
+See the end of this message for details on invoking 
+just-in-time (JIT) debugging instead of this dialog box.
+
+************** Exception Text **************
+System.Data.SqlClient.SqlException: Database 'ConfigBaseline2_mas500_app' cannot be opened because it is offline.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj)
+   at System.Data.SqlClient.TdsParser.Run(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj)
+   at System.Data.SqlClient.SqlInternalConnectionTds.ChangeDatabaseInternal(String database)
+   at System.Data.SqlClient.SqlInternalConnection.ChangeDatabase(String database)
+   at System.Data.SqlClient.SqlConnection.ChangeDatabase(String database)
+   at InternalsViewer.Internals.DataAccess.GetDataTable(String connectionString, String command, String database, String tableName, CommandType commandType, SqlParameter[] parameters)
+   at InternalsViewer.Internals.Database.LoadFiles()
+   at InternalsViewer.Internals.Database..ctor(String connectionString, Int32 databaseId, String name, Int32 state, Byte compatibilityLevel)
+   at InternalsViewer.Internals.InternalsViewerConnection.SetCurrentServer(String serverName, Boolean integratedSecurity, String userName, String password)
+   at InternalsViewer.SSMSAddIn.AllocationContainer.Connect()
+   at InternalsViewer.SSMSAddIn.AllocationContainer.AllocationWindow_Connect(Object sender, EventArgs e)
+   at InternalsViewer.UI.AllocationWindow.OnConnect(Object sender, EventArgs e)
+   at System.Windows.Forms.ToolStripItem.RaiseEvent(Object key, EventArgs e)
+   at System.Windows.Forms.ToolStripButton.OnClick(EventArgs e)
+   at System.Windows.Forms.ToolStripItem.HandleClick(EventArgs e)
+   at System.Windows.Forms.ToolStripItem.HandleMouseUp(MouseEventArgs e)
+   at System.Windows.Forms.ToolStripItem.FireEventInteractive(EventArgs e, ToolStripItemEventType met)
+   at System.Windows.Forms.ToolStripItem.FireEvent(EventArgs e, ToolStripItemEventType met)
+   at System.Windows.Forms.ToolStrip.OnMouseUp(MouseEventArgs mea)
+   at System.Windows.Forms.Control.WmMouseUp(Message& m, MouseButtons button, Int32 clicks)
+   at System.Windows.Forms.Control.WndProc(Message& m)
+   at System.Windows.Forms.ScrollableControl.WndProc(Message& m)
+   at System.Windows.Forms.ToolStrip.WndProc(Message& m)
+   at System.Windows.Forms.Control.ControlNativeWindow.OnMessage(Message& m)
+   at System.Windows.Forms.Control.ControlNativeWindow.WndProc(Message& m)
+   at System.Windows.Forms.NativeWindow.Callback(IntPtr hWnd, Int32 msg, IntPtr wparam, IntPtr lparam)
+
+
+************** Loaded Assemblies **************
+mscorlib
+    Assembly Version: 2.0.0.0
+    Win32 Version: 2.0.50727.1433 (REDBITS.050727-1400)
+    CodeBase: file:///c:/WINDOWS/Microsoft.NET/Framework/v2.0.50727/mscorlib.dll
+----------------------------------------
+AppIDPackage
+    Assembly Version: 9.0.242.0
+    Win32 Version: 9.00.3042.00
+    CodeBase: file:///C:/Program%20Files/Microsoft%20SQL%20Server/90/Tools/Binn/VSShell/Common7/IDE/AppIDPackage.DLL
+----------------------------------------
+System
+    Assembly Version: 2.0.0.0
+    Win32 Version: 2.0.50727.1433 (REDBITS.050727-1400)
+    CodeBase: file:///C:/WINDOWS/assembly/GAC_MSIL/System/2.0.0.0__b77a5c561934e089/System.dll
+----------------------------------------
+Microsoft.SqlServer.SqlTools.VSIntegration
+    Assembly Version: 9.0.242.0
+    Win32 Version: 9.00.3042.00
+    CodeBase: file:///C:/Program%20Files/Microsoft%20SQL%20Server/90/Tools/Binn/VSShell/Common7/IDE/Microsoft.SqlServer.SqlTools.VSIntegration.DLL
+----------------------------------------
+Microsoft.VisualStudio.Shell.Interop
+    Assembly Version: 7.1.40304.0
+    Win32 Version: 7.0.4054
+    CodeBase: file:///C:/WINDOWS/assembly/GAC/Microsoft.VisualStudio.Shell.Interop/7.1.40304.0__b03f5f7f11d50a3a/Microsoft.VisualStudio.Shell.Interop.dll
+----------------------------------------
+Microsoft.VisualStudio.OLE.Interop
+    Assembly Version: 7.1.40304.0
+    Win32 Version: 7.0.4054
+    CodeBase: file:///C:/WINDOWS/assembly/GAC/Microsoft.VisualStudio.OLE.Interop/7.1.40304.0__b03f5f7f11d50a3a/Microsoft.VisualStudio.OLE.Interop.dll
+----------------------------------------
+System.Windows.Forms
+    Assembly Version: 2.0.0.0
+    Win32 Version: 2.0.50727.1433 (REDBITS.050727-1400)
+    CodeBase: file:///C:/WINDOWS/assembly/GAC_MSIL/System.Windows.Forms/2.0.0.0__b77a5c561934e089/System.Windows.Forms.dll
+----------------------------------------
+System.Drawing
+    Assembly Version: 2.0.0.0
+    Win32 Version: 2.0.50727.1433 (REDBITS.050727-1400)
+    CodeBase: file:///C:/WINDOWS/assembly/GAC_MSIL/System.Drawing/2.0.0.0__b03f5f7f11d50a3a/System.Drawing.dll
+----------------------------------------
+Microsoft.SqlServer.SqlTDiagM
+    Assembly Version: 9.0.242.0
+    Win32 Version: 9.00.1399.00
+    CodeBase: file:///C:/WINDOWS/assembly/GAC_MSIL/Microsoft.SqlServer.SqlTDiagM/9.0.242.0__89845dcd8080cc91/Microsoft.SqlServer.SqlTDiagM.dll
+----------------------------------------
+SqlWorkbench.Interfaces
+    Assembly Version: 9.0.242.0
+    Win32 Version: 9.00.3042.00
+    CodeBase: file:///C:/Program%20Files/Microsoft%20SQL%20Server/90/Tools/Binn/VSShell/Common7/IDE/SqlWorkbench.Interfaces.DLL
+----------------------------------------
+Microsoft.DataWarehouse.SQM
+    Assembly Version: 9.0.242.0
+    Win32 Version: 9.00.3042.00
+    CodeBase: file:///C:/Program%20Files/Microsoft%20SQL%20Server/90/Tools/Binn/VSShell/Common7/IDE/Microsoft.DataWarehouse.SQM.DLL
+----------------------------------------
+Microsoft.SqlServer.Instapi
+    Assembly Version: 9.0.242.0
+    Win32 Version: 9.00.1399.00
+    CodeBase: file:///C:/WINDOWS/assembly/GAC_MSIL/Microsoft.SqlServer.Instapi/9.0.242.0__89845dcd8080cc91/Microsoft.SqlServer.Instapi.dll
+----------------------------------------
+InternalsViewer.SSMSAddIn
+    Assembly Version: 1.0.3285.35952
+    Win32 Version: 1.0.3285.35952
+    CodeBase: file:///C:/Program%20Files/Internals%20Viewer/InternalsViewer.SSMSAddIn.dll
+----------------------------------------
+Extensibility
+    Assembly Version: 7.0.3300.0
+    Win32 Version: 7.00.9466
+    CodeBase: file:///C:/WINDOWS/assembly/GAC/Extensibility/7.0.3300.0__b03f5f7f11d50a3a/Extensibility.dll
+----------------------------------------
+EnvDTE
+    Assembly Version: 8.0.0.0
+    Win32 Version: 8.0.50727.42 (RTM.050727-4200)
+    CodeBase: file:///C:/WINDOWS/assembly/GAC/EnvDTE/8.0.0.0__b03f5f7f11d50a3a/EnvDTE.dll
+----------------------------------------
+Microsoft.SqlServer.Management.Reports
+    Assembly Version: 9.0.242.0
+    Win32 Version: 9.00.3042.00
+    CodeBase: file:///C:/Program%20Files/Microsoft%20SQL%20Server/90/Tools/Binn/VSShell/Common7/IDE/Microsoft.SqlServer.Management.Reports.DLL
+----------------------------------------
+EnvDTE80
+    Assembly Version: 8.0.0.0
+    Win32 Version: 8.0.50727.42 (RTM.050727-4200)
+    CodeBase: file:///C:/WINDOWS/assembly/GAC/EnvDTE80/8.0.0.0__b03f5f7f11d50a3a/EnvDTE80.dll
+----------------------------------------
+Microsoft.VisualStudio.CommandBars
+    Assembly Version: 8.0.0.0
+    Win32 Version: 8.0.50727.42 (RTM.050727-4200)
+    CodeBase: file:///C:/WINDOWS/assembly/GAC/Microsoft.VisualStudio.CommandBars/8.0.0.0__b03f5f7f11d50a3a/Microsoft.VisualStudio.CommandBars.dll
+----------------------------------------
+InternalsViewer.Internals
+    Assembly Version: 1.0.0.0
+    Win32 Version: 1.0.0.0
+    CodeBase: file:///C:/Program%20Files/Internals%20Viewer/InternalsViewer.Internals.DLL
+----------------------------------------
+stdole
+    Assembly Version: 7.0.3300.0
+    Win32 Version: 7.00.9466
+    CodeBase: file:///C:/WINDOWS/assembly/GAC/stdole/7.0.3300.0__b03f5f7f11d50a3a/stdole.dll
+----------------------------------------
+ObjectExplorer
+    Assembly Version: 9.0.242.0
+    Win32 Version: 9.00.3042.00
+    CodeBase: file:///C:/Program%20Files/Microsoft%20SQL%20Server/90/Tools/Binn/VSShell/Common7/IDE/ObjectExplorer.DLL
+----------------------------------------
+SqlMgmt
+    Assembly Version: 9.0.242.0
+    Win32 Version: 9.00.3042.00
+    CodeBase: file:///C:/Program%20Files/Microsoft%20SQL%20Server/90/Tools/Binn/VSShell/Common7/IDE/SqlMgmt.DLL
+----------------------------------------
+ConnectionDlg
+    Assembly Version: 9.0.242.0
+    Win32 Version: 9.00.3042.00
+    CodeBase: file:///C:/Program%20Files/Microsoft%20SQL%20Server/90/Tools/Binn/VSShell/Common7/IDE/ConnectionDlg.DLL
+----------------------------------------
+Microsoft.VisualStudio
+    Assembly Version: 2.0.0.0
+    Win32 Version: 2.0.50727.42 built by: RTM
+    CodeBase: file:///C:/WINDOWS/assembly/GAC_MSIL/Microsoft.VisualStudio/2.0.0.0__b03f5f7f11d50a3a/Microsoft.VisualStudio.dll
+----------------------------------------
+Microsoft.VisualStudio.Shell
+    Assembly Version: 2.0.0.0
+    Win32 Version: 2.0.50727.42 (RTM.050727-4200)
+    CodeBase: file:///C:/WINDOWS/assembly/GAC_MSIL/Microsoft.VisualStudio.Shell/2.0.0.0__b03f5f7f11d50a3a/Microsoft.VisualStudio.Shell.dll
+----------------------------------------
+Microsoft.VisualStudio.Shell.Interop.8.0
+    Assembly Version: 8.0.0.0
+    Win32 Version: 8.0.50727.42 (RTM.050727-4200)
+    CodeBase: file:///C:/WINDOWS/assembly/GAC/Microsoft.VisualStudio.Shell.Interop.8.0/8.0.0.0__b03f5f7f11d50a3a/Microsoft.VisualStudio.Shell.Interop.8.0.dll
+----------------------------------------
+System.Drawing.Design
+    Assembly Version: 2.0.0.0
+    Win32 Version: 2.0.50727.1433 (REDBITS.050727-1400)
+    CodeBase: file:///C:/WINDOWS/assembly/GAC_MSIL/System.Drawing.Design/2.0.0.0__b03f5f7f11d50a3a/System.Drawing.Design.dll
+----------------------------------------
+Microsoft.VisualStudio.Designer.Interfaces
+    Assembly Version: 1.0.5000.0
+    Win32 Version: 1.1.4322.573
+    CodeBase: file:///C:/WINDOWS/assembly/GAC/Microsoft.VisualStudio.Designer.Interfaces/1.0.5000.0__b03f5f7f11d50a3a/Microsoft.VisualStudio.Designer.Interfaces.dll
+----------------------------------------
+Microsoft.SqlServer.Smo
+    Assembly Version: 9.0.242.0
+    Win32 Version: 9.00.3042.00
+    CodeBase: file:///C:/WINDOWS/assembly/GAC_MSIL/Microsoft.SqlServer.Smo/9.0.242.0__89845dcd8080cc91/Microsoft.SqlServer.Smo.dll
+----------------------------------------
+Microsoft.SqlServer.RegSvrEnum
+    Assembly Version: 9.0.242.0
+    Win32 Version: 9.00.3042.00
+    CodeBase: file:///C:/WINDOWS/assembly/GAC_MSIL/Microsoft.SqlServer.RegSvrEnum/9.0.242.0__89845dcd8080cc91/Microsoft.SqlServer.RegSvrEnum.dll
+----------------------------------------
+System.Xml
+    Assembly Version: 2.0.0.0
+    Win32 Version: 2.0.50727.1433 (REDBITS.050727-1400)
+    CodeBase: file:///C:/WINDOWS/assembly/GAC_MSIL/System.Xml/2.0.0.0__b77a5c561934e089/System.Xml.dll
+----------------------------------------
+InternalsViewer.UI
+    Assembly Version: 1.0.0.0
+    Win32 Version: 1.0.0.0
+    CodeBase: file:///C:/Program%20Files/Internals%20Viewer/InternalsViewer.UI.DLL
+----------------------------------------
+System.Management
+    Assembly Version: 2.0.0.0
+    Win32 Version: 2.0.50727.1433 (REDBITS.050727-1400)
+    CodeBase: file:///C:/WINDOWS/assembly/GAC_MSIL/System.Management/2.0.0.0__b03f5f7f11d50a3a/System.Management.dll
+----------------------------------------
+System.Data
+    Assembly Version: 2.0.0.0
+    Win32 Version: 2.0.50727.1433 (REDBITS.050727-1400)
+    CodeBase: file:///C:/WINDOWS/assembly/GAC_32/System.Data/2.0.0.0__b77a5c561934e089/System.Data.dll
+----------------------------------------
+Microsoft.SqlServer.ConnectionInfo
+    Assembly Version: 9.0.242.0
+    Win32 Version: 9.00.3042.00
+    CodeBase: file:///C:/WINDOWS/assembly/GAC_MSIL/Microsoft.SqlServer.ConnectionInfo/9.0.242.0__89845dcd8080cc91/Microsoft.SqlServer.ConnectionInfo.dll
+----------------------------------------
+Microsoft.SqlServer.SmoEnum
+    Assembly Version: 9.0.242.0
+    Win32 Version: 9.00.3042.00
+    CodeBase: file:///C:/WINDOWS/assembly/GAC_MSIL/Microsoft.SqlServer.SmoEnum/9.0.242.0__89845dcd8080cc91/Microsoft.SqlServer.SmoEnum.dll
+----------------------------------------
+System.Configuration
+    Assembly Version: 2.0.0.0
+    Win32 Version: 2.0.50727.1433 (REDBITS.050727-1400)
+    CodeBase: file:///C:/WINDOWS/assembly/GAC_MSIL/System.Configuration/2.0.0.0__b03f5f7f11d50a3a/System.Configuration.dll
+----------------------------------------
+System.Transactions
+    Assembly Version: 2.0.0.0
+    Win32 Version: 2.0.50727.1433 (REDBITS.050727-1400)
+    CodeBase: file:///C:/WINDOWS/assembly/GAC_32/System.Transactions/2.0.0.0__b77a5c561934e089/System.Transactions.dll
+----------------------------------------
+System.EnterpriseServices
+    Assembly Version: 2.0.0.0
+    Win32 Version: 2.0.50727.1433 (REDBITS.050727-1400)
+    CodeBase: file:///C:/WINDOWS/assembly/GAC_32/System.EnterpriseServices/2.0.0.0__b03f5f7f11d50a3a/System.EnterpriseServices.dll
+----------------------------------------
+Microsoft.NetEnterpriseServers.ExceptionMessageBox
+    Assembly Version: 9.0.242.0
+    Win32 Version: 9.00.3042.00
+    CodeBase: file:///C:/WINDOWS/assembly/GAC_MSIL/Microsoft.NetEnterpriseServers.ExceptionMessageBox/9.0.242.0__89845dcd8080cc91/Microsoft.NetEnterpriseServers.ExceptionMessageBox.dll
+----------------------------------------
+Microsoft.SqlServer.SqlEnum
+    Assembly Version: 9.0.242.0
+    Win32 Version: 9.00.3042.00
+    CodeBase: file:///C:/WINDOWS/assembly/GAC_MSIL/Microsoft.SqlServer.SqlEnum/9.0.242.0__89845dcd8080cc91/Microsoft.SqlServer.SqlEnum.dll
+----------------------------------------
+Microsoft.SqlServer.BatchParser
+    Assembly Version: 9.0.242.0
+    Win32 Version: 2005.090.3042.00
+    CodeBase: file:///C:/WINDOWS/assembly/GAC_32/Microsoft.SqlServer.BatchParser/9.0.242.0__89845dcd8080cc91/Microsoft.SqlServer.BatchParser.dll
+----------------------------------------
+msvcm80
+    Assembly Version: 8.0.50727.1833
+    Win32 Version: 8.00.50727.1833
+    CodeBase: file:///C:/WINDOWS/WinSxS/x86_Microsoft.VC80.CRT_1fc8b3b9a1e18e3b_8.0.50727.1833_x-ww_5ef082d6/msvcm80.dll
+----------------------------------------
+ObjectExplorerReplication
+    Assembly Version: 9.0.242.0
+    Win32 Version: 9.00.1399.00
+    CodeBase: file:///C:/Program%20Files/Microsoft%20SQL%20Server/90/Tools/Binn/VSShell/Common7/IDE/ObjectExplorerReplication.DLL
+----------------------------------------
+Microsoft.SqlServer.CustomControls
+    Assembly Version: 9.0.242.0
+    Win32 Version: 9.00.3042.00
+    CodeBase: file:///C:/WINDOWS/assembly/GAC_MSIL/Microsoft.SqlServer.CustomControls/9.0.242.0__89845dcd8080cc91/Microsoft.SqlServer.CustomControls.dll
+----------------------------------------
+SQLEditors
+    Assembly Version: 9.0.242.0
+    Win32 Version: 9.00.3042.00
+    CodeBase: file:///C:/Program%20Files/Microsoft%20SQL%20Server/90/Tools/Binn/VSShell/Common7/IDE/SQLEditors.DLL
+----------------------------------------
+Microsoft.VisualStudio.TextManager.Interop
+    Assembly Version: 7.1.40304.0
+    Win32 Version: 7.0.4054
+    CodeBase: file:///C:/WINDOWS/assembly/GAC/Microsoft.VisualStudio.TextManager.Interop/7.1.40304.0__b03f5f7f11d50a3a/Microsoft.VisualStudio.TextManager.Interop.dll
+----------------------------------------
+Accessibility
+    Assembly Version: 2.0.0.0
+    Win32 Version: 2.0.50727.1433 (REDBITS.050727-1400)
+    CodeBase: file:///C:/WINDOWS/assembly/GAC_MSIL/Accessibility/2.0.0.0__b03f5f7f11d50a3a/Accessibility.dll
+----------------------------------------
+Microsoft.SqlServer.GridControl
+    Assembly Version: 9.0.242.0
+    Win32 Version: 9.00.3042.00
+    CodeBase: file:///C:/WINDOWS/assembly/GAC_MSIL/Microsoft.SqlServer.GridControl/9.0.242.0__89845dcd8080cc91/Microsoft.SqlServer.GridControl.dll
+----------------------------------------
+Microsoft.SqlServerCe.Client
+    Assembly Version: 9.0.242.0
+    Win32 Version: 3.0.5300.0
+    CodeBase: file:///C:/Program%20Files/Microsoft%20SQL%20Server/90/Tools/Binn/VSShell/Common7/IDE/Microsoft.SqlServerCe.Client.DLL
+----------------------------------------
+Microsoft.SqlServer.DataStorage
+    Assembly Version: 9.0.242.0
+    Win32 Version: 9.00.3042.00
+    CodeBase: file:///C:/WINDOWS/assembly/GAC_MSIL/Microsoft.SqlServer.DataStorage/9.0.242.0__89845dcd8080cc91/Microsoft.SqlServer.DataStorage.dll
+----------------------------------------
+p5h3k29f
+    Assembly Version: 9.0.242.0
+    Win32 Version: 2.0.50727.1433 (REDBITS.050727-1400)
+    CodeBase: file:///C:/WINDOWS/assembly/GAC_MSIL/System/2.0.0.0__b77a5c561934e089/System.dll
+----------------------------------------
+_ytsde66
+    Assembly Version: 9.0.242.0
+    Win32 Version: 2.0.50727.1433 (REDBITS.050727-1400)
+    CodeBase: file:///C:/WINDOWS/assembly/GAC_MSIL/System/2.0.0.0__b77a5c561934e089/System.dll
+----------------------------------------
+Microsoft.VisualStudio.CommonIDE
+    Assembly Version: 8.0.0.0
+    Win32 Version: 8.0.50727.42
+    CodeBase: file:///C:/WINDOWS/assembly/GAC_MSIL/Microsoft.VisualStudio.CommonIDE/8.0.0.0__b03f5f7f11d50a3a/Microsoft.VisualStudio.CommonIDE.dll
+----------------------------------------
+SqlManagerUI
+    Assembly Version: 9.0.242.0
+    Win32 Version: 9.00.3042.00
+    CodeBase: file:///C:/Program%20Files/Microsoft%20SQL%20Server/90/Tools/Binn/VSShell/Common7/IDE/SqlManagerUi.DLL
+----------------------------------------
+Microsoft.AnalysisServices
+    Assembly Version: 9.0.242.0
+    Win32 Version: 9.00.3042.00
+    CodeBase: file:///C:/WINDOWS/assembly/GAC_MSIL/Microsoft.AnalysisServices/9.0.242.0__89845dcd8080cc91/Microsoft.AnalysisServices.dll
+----------------------------------------
+Microsoft.SqlServer.SString
+    Assembly Version: 9.0.242.0
+    Win32 Version: 9.00.1399.00
+    CodeBase: file:///C:/WINDOWS/assembly/GAC_MSIL/Microsoft.SqlServer.SString/9.0.242.0__89845dcd8080cc91/Microsoft.SqlServer.SString.dll
+----------------------------------------
+Microsoft.SqlServer.DlgGrid
+    Assembly Version: 9.0.242.0
+    Win32 Version: 9.00.3042.00
+    CodeBase: file:///C:/WINDOWS/assembly/GAC_MSIL/Microsoft.SqlServer.DlgGrid/9.0.242.0__89845dcd8080cc91/Microsoft.SqlServer.DlgGrid.dll
+----------------------------------------
+System.Web
+    Assembly Version: 2.0.0.0
+    Win32 Version: 2.0.50727.1433 (REDBITS.050727-1400)
+    CodeBase: file:///C:/WINDOWS/assembly/GAC_32/System.Web/2.0.0.0__b03f5f7f11d50a3a/System.Web.dll
+----------------------------------------
+Microsoft.SqlServer.WmiEnum
+    Assembly Version: 9.0.242.0
+    Win32 Version: 9.00.3042.00
+    CodeBase: file:///C:/WINDOWS/assembly/GAC_MSIL/Microsoft.SqlServer.WmiEnum/9.0.242.0__89845dcd8080cc91/Microsoft.SqlServer.WmiEnum.dll
+----------------------------------------
+
+************** JIT Debugging **************
+To enable just-in-time (JIT) debugging, the .config file for this
+application or computer (machine.config) must have the
+jitDebugging value set in the system.windows.forms section.
+The application must also be compiled with debugging
+enabled.
+
+For example:
+
+<configuration>
+    <system.windows.forms jitDebugging="true" />
+</configuration>
+
+When JIT debugging is enabled, any unhandled exception
+will be sent to the JIT debugger registered on the computer
+rather than be handled by this dialog box.
+

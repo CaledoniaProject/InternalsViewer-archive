@@ -1,0 +1,78 @@
+[
+  {
+    "Id": 1405,
+    "Title": "Offline DBs"
+  },
+  {
+    "Id": 1407,
+    "Title": "Unable to open the viewer in case you have one or more databases Offline"
+  },
+  {
+    "Id": 5254,
+    "Title": "App crashes immediately after trying to connect to server"
+  },
+  {
+    "Id": 5882,
+    "Title": "Plugin fails to load, SSMS 2008, Error 80070002"
+  },
+  {
+    "Id": 7139,
+    "Title": "Plugin fails to load, SSMS 2008 R2 x64 Win7, Error  80131513"
+  },
+  {
+    "Id": 7428,
+    "Title": "Internal viewer & SSMS 2008 R2"
+  },
+  {
+    "Id": 8333,
+    "Title": "Cannot view indexes on system tables via object explorer"
+  },
+  {
+    "Id": 8608,
+    "Title": "Add-in failed to load - the system cannot find the file specified"
+  },
+  {
+    "Id": 8700,
+    "Title": "Compatibility with SQL Server 2008 R2"
+  },
+  {
+    "Id": 8701,
+    "Title": "Index Types have wrong values"
+  },
+  {
+    "Id": 8702,
+    "Title": "Respective pages are not \"highlighted\" when you select an index"
+  },
+  {
+    "Id": 9854,
+    "Title": "Error number: 80131513 error add-in InternalsViewer.SSMSAddin.Connect"
+  },
+  {
+    "Id": 10259,
+    "Title": "Installing InternalsViewer"
+  },
+  {
+    "Id": 10466,
+    "Title": "Fails to run on Windows8"
+  },
+  {
+    "Id": 10608,
+    "Title": "error: The Add-in 'InternalsViewer.SSMSAddIn.Connect' failed to load or caused an exception."
+  },
+  {
+    "Id": 10820,
+    "Title": "The add-in InternalsViewer.SSMSAddIn.Connect failed to load or caused an exception"
+  },
+  {
+    "Id": 12272,
+    "Title": "SSMS 2012"
+  },
+  {
+    "Id": 13304,
+    "Title": "It doesn't work on SQL Server 2012 Express with Management Studio."
+  },
+  {
+    "Id": 13513,
+    "Title": "SQL 2008R2 Version"
+  }
+]

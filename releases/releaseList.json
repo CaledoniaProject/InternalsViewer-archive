@@ -1,0 +1,149 @@
+[
+  {
+    "Id": "0",
+    "Name": "Internals Viewer 2 Beta 1 20081215",
+    "DevelopmentStatus": "Beta",
+    "Description": "Latest version of Internals Viewer 2 for SQL Server 2005 and 2008",
+    "ReleasedDatge": "0001-01-01T00:00:00",
+    "ModifiedDate": "2008-12-15T12:53:05.703-08:00",
+    "Files": [
+      {
+        "Id": "9274a27b-cf3a-42f0-aaae-c5b3ee0149d9",
+        "FileName": "InternalsViewerInstaller.msi",
+        "Url": "./0/9274a27b-cf3a-42f0-aaae-c5b3ee0149d9",
+        "Type": "Application",
+        "UploadDate": "2008-12-15T12:53:05.373-08:00"
+      },
+      {
+        "Id": "277625bb-9fcf-43bc-9d21-650e6c176860",
+        "FileName": "InternalsViewerInstaller.msi",
+        "Url": "./0/277625bb-9fcf-43bc-9d21-650e6c176860",
+        "Type": "Application",
+        "UploadDate": "2008-12-15T12:25:01.393-08:00"
+      }
+    ]
+  },
+  {
+    "Id": "1",
+    "Name": "Internals Viewer 2 Alpha 20081116.1",
+    "DevelopmentStatus": "Alpha",
+    "Description": "Latest version of Internals Viewer for SQL Server.",
+    "ReleasedDatge": "0001-01-01T00:00:00",
+    "ModifiedDate": "2008-11-16T11:50:51.103-08:00",
+    "Files": [
+      {
+        "Id": "f0c85356-0fdd-4752-ae49-9340b52b1a46",
+        "FileName": "InternalsViewerInstaller.msi",
+        "Url": "./1/f0c85356-0fdd-4752-ae49-9340b52b1a46",
+        "Type": "Application",
+        "UploadDate": "2008-11-16T11:21:15.45-08:00"
+      },
+      {
+        "Id": "88379ebd-29eb-4dc3-bcdd-2ecace391637",
+        "FileName": "InternalsViewerInstaller.msi",
+        "Url": "./1/88379ebd-29eb-4dc3-bcdd-2ecace391637",
+        "Type": "Application",
+        "UploadDate": "2008-11-16T11:50:50.743-08:00"
+      }
+    ]
+  },
+  {
+    "Id": "2",
+    "Name": "Internals Viewer 2 Alpha 20081102.1",
+    "DevelopmentStatus": "Alpha",
+    "Description": "Latest build of Internals Viewer for SQL Server",
+    "ReleasedDatge": "0001-01-01T00:00:00",
+    "ModifiedDate": "2008-11-02T13:02:59.72-08:00",
+    "Files": [
+      {
+        "Id": "6a9f05b3-3782-4cc2-9e2b-300b77b01177",
+        "FileName": "InternalsViewerInstaller.msi",
+        "Url": "./2/6a9f05b3-3782-4cc2-9e2b-300b77b01177",
+        "Type": "Application",
+        "UploadDate": "2008-11-02T13:02:59.41-08:00"
+      },
+      {
+        "Id": "44f769e6-42e2-4f7c-bc2a-28ba6140e07b",
+        "FileName": "InternalsViewerInstaller.msi",
+        "Url": "./2/44f769e6-42e2-4f7c-bc2a-28ba6140e07b",
+        "Type": "Application",
+        "UploadDate": "2008-11-02T12:56:19.353-08:00"
+      }
+    ]
+  },
+  {
+    "Id": "3",
+    "Name": "Internals Viewer 2 Alpha 20081012.1",
+    "DevelopmentStatus": "Planning",
+    "Description": "First alpha public release of the next version of Internals Viewer (previously called SQL Internals Viewer)",
+    "ReleasedDatge": "0001-01-01T00:00:00",
+    "ModifiedDate": "2008-10-14T12:34:43.17-07:00",
+    "Files": [
+      {
+        "Id": "a7e132e7-29a6-4d8d-9888-e03bfd9f2d90",
+        "FileName": "InternalsViewerInstaller.msi",
+        "Url": "./3/a7e132e7-29a6-4d8d-9888-e03bfd9f2d90",
+        "Type": "Application",
+        "UploadDate": "2008-10-13T14:51:33.81-07:00"
+      }
+    ]
+  },
+  {
+    "Id": "4",
+    "Name": "Internals Viewer 2 Alpha 20081014.1",
+    "DevelopmentStatus": "Planning",
+    "Description": "Latest build of Internals Viewer for SQL Server",
+    "ReleasedDatge": "0001-01-01T00:00:00",
+    "ModifiedDate": "2008-10-14T12:36:12.593-07:00",
+    "Files": [
+      {
+        "Id": "5b46dc62-9b33-4372-ba2c-8087d54ad30c",
+        "FileName": "InternalsViewerInstaller.msi",
+        "Url": "./4/5b46dc62-9b33-4372-ba2c-8087d54ad30c",
+        "Type": "Application",
+        "UploadDate": "2008-10-14T12:36:12.233-07:00"
+      }
+    ]
+  },
+  {
+    "Id": "5",
+    "Name": "Internals Viewer 2 Alpha 20081020.1",
+    "DevelopmentStatus": "Planning",
+    "Description": "Latest build of Internals Viewer for SQL Server.\n\n*What's new?*\n\n* Several UI improvements\n* Page Viewer decodes and displays data records",
+    "ReleasedDatge": "0001-01-01T00:00:00",
+    "ModifiedDate": "2008-10-20T14:26:05.227-07:00",
+    "Files": [
+      {
+        "Id": "f058fa28-3e4f-41af-9abd-b8ecd24b11f7",
+        "FileName": "InternalsViewerInstaller.msi",
+        "Url": "./5/f058fa28-3e4f-41af-9abd-b8ecd24b11f7",
+        "Type": "Application",
+        "UploadDate": "2008-10-20T14:26:04.917-07:00"
+      }
+    ]
+  },
+  {
+    "Id": "6",
+    "Name": "Internals Viewer 2 Beta 2 20081228",
+    "DevelopmentStatus": "Beta",
+    "Description": "Latest version of Internals Viewer for SQL Server.\n\nThis version includes several bug fixes and Encode and Find functionality on the Page Viewer.",
+    "ReleasedDatge": "0001-01-01T00:00:00",
+    "ModifiedDate": "2008-12-29T12:04:38.863-08:00",
+    "Files": [
+      {
+        "Id": "63a5bb29-1659-4fe3-b0da-6c10efb27f5a",
+        "FileName": "InternalsViewerInstaller.msi",
+        "Url": "./6/63a5bb29-1659-4fe3-b0da-6c10efb27f5a",
+        "Type": "Application",
+        "UploadDate": "2008-12-29T12:01:49.377-08:00"
+      },
+      {
+        "Id": "e544338c-5524-4212-b307-970aedb4a76c",
+        "FileName": "InternalsViewerInstaller.msi",
+        "Url": "./6/e544338c-5524-4212-b307-970aedb4a76c",
+        "Type": "Application",
+        "UploadDate": "2008-12-29T11:45:10.523-08:00"
+      }
+    ]
+  }
+]

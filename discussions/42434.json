@@ -1,0 +1,26 @@
+[
+  {
+    "Id": "141002",
+    "ThreadId": "42434",
+    "Html": "Hi Danny,<br>\r\n<br>\r\nI've been using IV for sometime now and i like it.... A LOT!!!<br>\r\n<br>\r\nBut being a dutchman, i have a few ideas for some features:<br>\r\n<p>&nbsp;</p>\r\n<ul>\r\n    <li>In page viewer a selection mechanism that allows to select a table or index and a next step button to follow the doubely linked list.</li>\r\n    <li>A navigatable pyramid like view of the B-tree structure of an index</li>\r\n</ul>\r\n<p>Both of these would grately contribute to the insight of the database storage engine, especially in training situations.<br>\r\n<br>\r\nNExus64 / Theo</p>\r\n",
+    "PostedDate": "2008-12-16T08:19:13.693-08:00",
+    "UserRole": null,
+    "MarkedAsAnswerDate": null
+  },
+  {
+    "Id": "141065",
+    "ThreadId": "42434",
+    "Html": "<p>I'm glad you like the app!<br>\r\n<br>\r\nThanks for the suggestions.</p>\r\n<p>You can navigate the double linked lists. The Next Page and Prev. Page addresses can be clicked to change the page. Did you have something else in mind?<br>\r\n<br>\r\nThe pyramid thing is a great idea. I'll have a think about how it can be achieved.<br>\r\n<br>\r\nDanny</p>\r\n",
+    "PostedDate": "2008-12-16T11:33:46.927-08:00",
+    "UserRole": null,
+    "MarkedAsAnswerDate": null
+  },
+  {
+    "Id": "141291",
+    "ThreadId": "42434",
+    "Html": "<p>Hi Danny</p>\r\n<p>I had the impression that the next button navigated to the next page as in 1:1 to 1:2 to 1:3, but now you are saying that it navigates the doubely linked list by default?</p>\r\n<p>It might be an idea to make it optional to use the doubely linked list when clicking next/prev, so you can choose to go to the next page in order or the next page on the doubely linked list. </p>\r\n<p>For the pyramid i would suggest a treeview like functionality rotated 90 degrees so you can see something like this</p>\r\n<p>            root<br>\r\n        +            +   .....<br>\r\n    int    int    int    int ..... summary of int level; #index rows, #pages, page density, etc<br>\r\n      +    +    +    +    .....<br>\r\n    int    int    int    int ..... summary of int level; #index rows, #pages, page density, etc<br>\r\n      +    +    +    +    .....<br>\r\n   L L L L L L L L ..... summary of leaf level; #index rows, #pages, page density, etc<br>\r\n<br>\r\n                ^<br>\r\n                |  ---- split window?</p>\r\n<p>The leaf entry should hotlink to the correspondending data page<br>\r\n<br>\r\nAs far as the visual layout is concerned  the 3rd and 4th levels couldbe quite wide, so horizontal scrollbars will be needed, split view might then be an idea so you can see the first and the last leaf page simultaniously..?</p>\r\n<p>In the root and intermediate pages i would only show a preview of the first and last index key of that page row so the pyramid's height would stay limited</p>\r\n<p>Maybe use a synced 2 window frame solution, where the left window shows the pyramid and the right window the decoded page?<br>\r\n<br>\r\nAnd for the usage of this app; i use it while training our new DBA's and programmers so they can see what really happen. A picture has more worth than a thousand words.   ;)<br>\r\n<br>\r\nNexus64 / Theo</p>\r\n",
+    "PostedDate": "2008-12-17T03:44:43.68-08:00",
+    "UserRole": null,
+    "MarkedAsAnswerDate": null
+  }
+]

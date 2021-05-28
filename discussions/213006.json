@@ -1,0 +1,34 @@
+[
+  {
+    "Id": "444243",
+    "ThreadId": "213006",
+    "Html": "<p>Hi!</p>\r\n<p>I am trying to use the current version for SQL 2008 but multiple attempts to install (even the REG key hack was attempted) yield the following message when I launch SSMS:</p>\r\n<p>The Add-in 'InternalsViewer.SSMSAddIn.Connect' failed to load or caused an exception.<br>Would you like to remove this Add-in?<br>If you choose yes, you will need to reinstall the Add-in to use it again.</p>\r\n<p>Error Message: Class not registered</p>\r\n<p>Error number: 80040154</p>\r\n<p>I have double-checked the paths in the registry and they all seem OK. Any idea what class it is referring to?</p>\r\n<p>Thank you!</p>",
+    "PostedDate": "2010-05-18T04:15:16.707-07:00",
+    "UserRole": null,
+    "MarkedAsAnswerDate": null
+  },
+  {
+    "Id": "629511",
+    "ThreadId": "213006",
+    "Html": "<p>Hi,</p>\r\n<p>I get same error on Windows 7 SQL 2008 R2 too.</p>\r\n<p>Please help.</p>\r\n<p>&nbsp;</p>\r\n<p>Thank you.</p>",
+    "PostedDate": "2011-06-18T02:11:57.417-07:00",
+    "UserRole": null,
+    "MarkedAsAnswerDate": null
+  },
+  {
+    "Id": "1427321",
+    "ThreadId": "213006",
+    "Html": "Good day,<br />\n<br />\nThis version do not work on 2008r2. There is another newer version here:<br />\n<a href=\"http://www.example.com\" rel=\"nofollow\">https://intview2.codeplex.com/</a><br />\n<br />\nRonen,<br />\n",
+    "PostedDate": "2015-05-24T00:51:11.443-07:00",
+    "UserRole": null,
+    "MarkedAsAnswerDate": null
+  },
+  {
+    "Id": "1438080",
+    "ThreadId": "213006",
+    "Html": "<strong>pituach wrote:</strong><br />\n<blockquote>\nGood day,<br />\n<br />\nThis version do not work on 2008r2. There is another newer version here:<br />\n<a href=\"http://www.example.com\" rel=\"nofollow\">https://intview2.codeplex.com/</a><br />\n<br />\nRonen,<br />\n</blockquote>\nThanks for sharing the 2008R2 version, but the hyperlink is incorrect, which made think it was a fake link, anyway, anyone else want to get the 2008R2 version, click this one instead:\r<br />\n<a href=\"https://intview2.codeplex.com\" rel=\"nofollow\">https://intview2.codeplex.com/</a> <br />\n",
+    "PostedDate": "2015-08-10T22:23:52.987-07:00",
+    "UserRole": null,
+    "MarkedAsAnswerDate": null
+  }
+]

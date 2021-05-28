@@ -1,0 +1,10 @@
+[
+  {
+    "Id": "141001",
+    "ThreadId": "42433",
+    "Html": "Hi Danny,<br>\r\n<br>\r\nI've been using IV for sometime now and i like it.... A LOT!!!<br>\r\n<br>\r\nBut being a dutchman, i have a few ideas for some features:<br>\r\n<p>&nbsp;</p>\r\n<ul>\r\n    <li>In page viewer a selection mechanism that allows to select a table or index and a next step button to follow the doubely linked list.</li>\r\n    <li>A navigatable pyramid like view of the B-tree structure of an index</li>\r\n</ul>\r\n<p>Both of these would grately contribute to the insight of the database storage engine, especially in training situations.<br>\r\n<br>\r\nNExus64 / Theo</p>\r\n",
+    "PostedDate": "2008-12-16T08:19:11.1-08:00",
+    "UserRole": null,
+    "MarkedAsAnswerDate": null
+  }
+]

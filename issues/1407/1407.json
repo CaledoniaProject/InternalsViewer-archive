@@ -1,0 +1,61 @@
+{
+  "WorkItem": {
+    "AffectedComponent": {
+      "Name": "",
+      "DisplayName": ""
+    },
+    "ClosedComment": "",
+    "ClosedDate": null,
+    "CommentCount": 0,
+    "Custom": null,
+    "Description": "I am using SQL Server 2005 and some database have status \"Offline\" if you Internals Viewer from the Toolbar and then select Allocation Map, depending if you are already connected or not the Viewer starts but does not connect. If you click the connect button from the viewer once more and try to connect you will get an error from the .NET Framework \"Database '<database name' cannot be opended because it is offline.\" I would say skip all dabases which have status Offline.",
+    "LastUpdatedDate": "2013-02-21T16:07:03.253-08:00",
+    "PlannedForRelease": "",
+    "ReleaseVisibleToPublic": false,
+    "Priority": {
+      "Name": "Low",
+      "Severity": 50,
+      "Id": 1
+    },
+    "ProjectName": "InternalsViewer",
+    "ReportedDate": "2009-01-16T08:33:04.22-08:00",
+    "Status": {
+      "Name": "Proposed",
+      "Id": 1
+    },
+    "ReasonClosed": {
+      "Name": "Unassigned"
+    },
+    "Summary": "Unable to open the viewer in case you have one or more databases Offline",
+    "Type": {
+      "Name": "Issue",
+      "Id": 3
+    },
+    "VoteCount": 1,
+    "Id": 1407
+  },
+  "FileAttachments": [
+    {
+      "FileId": 1464,
+      "FileName": "Resources.resx",
+      "DownloadUrl": ".\\1464"
+    }
+  ],
+  "Comments": [
+    {
+      "Message": "The query responsible for getting the list of databases needs to ignore the offline dbs. I changed the query in the source code and Internal Viewer works fine.\r\nThe query is in the Properties/resources.resx file.",
+      "PostedDate": "2009-09-14T12:23:53.58-07:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "",
+      "PostedDate": "2009-09-14T12:23:57.83-07:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "",
+      "PostedDate": "2013-02-21T16:07:03.253-08:00",
+      "Id": -2147483648
+    }
+  ]
+}

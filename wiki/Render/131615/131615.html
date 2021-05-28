@@ -1,0 +1,9 @@
+<div class="wikidoc"><h2>Transaction Log Viewer</h2>The Transaction Log Viewer integrates with the SQL Server Management Studio query window.<br /><br />To enable the viewer check the menu option <i><b>Internals Viewer – Display Transaction Log</b></i>.<br /><br /><img src="http://download-codeplex.sec.s-msft.com/Download?ProjectName=InternalsViewer&DownloadId=53318" alt="display_transaction_log.png" title="display_transaction_log.png" /><br /><br /><b>Note</b> The Transaction Log Viewer uses checkpoints to monitor the transaction log. It should only be used on non-production SQL Servers as the checkpoints may cause performance issues.<br /><br />When the Transaction Log Viewer is enabled an extra Transaction Log tab will be displayed in the Query Results pane.<br /><br /><img src="http://download-codeplex.sec.s-msft.com/Download?ProjectName=InternalsViewer&DownloadId=53319" alt="transaction_log_viewer.png" title="transaction_log_viewer.png" /><br /><br />The Transaction Log tab shows the following information:<br />
+<ul><li>LSN – Log Sequence Number</li>
+<li>Operation – The transaction log operation</li>
+<li>Context – The context of the operation</li>
+<li>Page – The page the operation applied to. This can be clicked on the open the page in the Page Viewer.</li>
+<li>Slot – The slot the operation applied to. This can be clicked on to open the page/slot in the Page Viewer</li>
+<li>Allocation Unit</li>
+<li>Description – Additional information</li></ul>
+<br />Green text on the Transaction Log Viewer indicates the operation is related to allocation<br /><br />Gray text indicates the operation is related to a system object</div><div class="ClearBoth"></div>

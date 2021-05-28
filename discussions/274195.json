@@ -1,0 +1,34 @@
+[
+  {
+    "Id": "677990",
+    "ThreadId": "274195",
+    "Html": "\r\n<p>Is this Compatible with SSMS 2008R2?</p>\r\n",
+    "PostedDate": "2011-09-28T21:59:15.543-07:00",
+    "UserRole": null,
+    "MarkedAsAnswerDate": null
+  },
+  {
+    "Id": "747772",
+    "ThreadId": "274195",
+    "Html": "<p>I tried installing and running with SSMS 2008R2 and it did not work. Sounds fascinating, though.&nbsp;</p>",
+    "PostedDate": "2012-02-08T12:35:09.71-08:00",
+    "UserRole": null,
+    "MarkedAsAnswerDate": null
+  },
+  {
+    "Id": "838348",
+    "ThreadId": "274195",
+    "Html": "<p>It's not compatible. They changed a few things. I followed some instructions here, and others I found on the net and spent about a day downloading things and SDKs and stuff to compile a version that is compatible with SSMS 2008R2.</p>\r\n<p>You could also probably do this too if you were desperate (like I was) but if you want to just use mine, I've uploaded it here:&nbsp;http://dlftw.com/4p96k3t</p>",
+    "PostedDate": "2012-05-18T23:42:41.993-07:00",
+    "UserRole": null,
+    "MarkedAsAnswerDate": null
+  },
+  {
+    "Id": "1110840",
+    "ThreadId": "274195",
+    "Html": "Hello norganna,\r<br />\n<br />\n  Could you provide more details on the approach that you followed/different things that you installed to get it to work in sql server 2008 R2?\r<br />\n \r<br />\nThanks!<br />\n",
+    "PostedDate": "2013-10-22T17:22:44.33-07:00",
+    "UserRole": null,
+    "MarkedAsAnswerDate": null
+  }
+]
